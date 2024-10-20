@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "tei.dtd" [
+]>
+<TEI.2 id="C0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Nicolaus de Cusa: Sermones III (1452-1455)</title>
+<respStmt>
+<resp>compiled by</resp> <name>Niels Bohnert, Tom M&#x00FC;ller, Johannes Leicht, Katrin Stepp</name>
+</respStmt>
+</titleStmt>
+
+<editionStmt>
+<edition>SGML encoded Version, <date>Januar 2008</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>DFG-Projekt "Cusanus-Portal"</publisher>
+<pubPlace>Trier</pubPlace>
+<publisher>Institut f&#x00FC;r Cusanus-Forschung</publisher>
+<pubPlace>Trier</pubPlace>
+<date>Januar 2008</date>
+<availability><p>Copyright 2008</p></availability>
+</publicationStmt>
+
+<seriesStmt>
+<title>SGML encoded Texts for the Project "Cusanus-Portal"</title>
+</seriesStmt>
+
+<sourceDesc>
+<bibl>
+<title type="main" level="m">Sermones III (1452-1455)</title>
+<author>Nicolaus de Cusa</author>
+<editor role="editor">Silvia Donati</editor>
+<editor role="editor">Rudolf Haubst</editor>
+<editor role="editor">Isabelle Mandrella</editor>
+<editor role="editor">Heinrich Pauli</editor>
+<editor role="editor">Harald Schwaetzer</editor>
+<editor role="editor">Franz-Bernhard Stammk&#x00F6;tter</editor>
+<imprint>
+<pubPlace>Hamburg</pubPlace>
+<publisher>Meiner</publisher>
+<date>1995-2005</date>
+</imprint>
+<series>
+<title level="s">Nicolai de Cusa opera omnia iussu et auctoritate Academiae Litterarum Heidelbergensis ad codicum fidem edita</title>
+<biblScope>XVIII</biblScope>
+</series>
+</bibl>
+</sourceDesc>
+
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div0 type="corpus" n="Nicolai de Cusa opera omnia">
+<div1 type="genre" n="Serm">
+<div2 type="vol" n="18">
+<div3 type="work" id="NvK-S_CLVI" title="Sermo CLVI" sort="180_156__">
+<pb n="169"/>
+<fw type="n" n="1" rend="+"/>
+<p rend="indent"><lb n="S_CLVI_1_1"/><fw type="folio">Cod. Vat. Lat. 1245 fol.53<hi rend="superscript">rb</hi></fw> &#x00AB;<w id="C180042646" lemma_l="10281" rend="vere">Vere</w> <w id="C180042647" lemma_l="3931" rend="filius">Filius</w> <w id="C180042648" lemma_l="2826" rend="dei">Dei</w> <w id="C180042649" lemma_l="9483" rend="erat">erat</w> <w id="C180042650" lemma_l="5401" rend="iste">iste</w>.&#x00BB;
+</p>
+<p rend="indent"><lb n="S_CLVI_1_2"/><w id="C180042651" lemma_l="4422" rend="hodie">Hodie</w> <w id="C180042652" lemma_l="6095" rend="memoriam">memoriam</w> <w id="C180042653" lemma_l="451" rend="agimus">agimus</w> <w id="C180042654" lemma_l="6334" rend="mortis">mortis</w> <w id="C180042655" lemma_n="85" rend="jesu">Jesu</w> <w id="C180042656" lemma_l="11845" rend="christi">Christi</w>,
+<lb n="S_CLVI_1_3"/><w id="C180042657" lemma_l="8167" rend="quam">quam</w> <w id="C180042658" lemma_l="6644" rend="nullus">nullus</w> <w id="C180042659" lemma_l="1582" rend="christianus">christianus</w> <w id="C180042660" lemma_l="9119" rend="sine">sine</w> <w id="C180042661" lemma_l="1881" rend="compassione">compassione</w> <w id="C180042662" lemma_l="8388" rend="recte">recte</w>
+<lb n="S_CLVI_1_4"/><w id="C180042663" lemma_l="451" rend="agere">agere</w> <w id="C180042664" lemma_l="7563" rend="potest">potest</w>, <w id="C180042665" lemma_l="8215" rend="quoniam">quoniam</w> <w id="C180042666" lemma_l="7131" rend="passus">passus</w> <w id="C180042667" lemma_l="9483" rend="est">est</w> &#x00AB;<w id="C180042668" lemma_l="7962" rend="propter">propter</w> <w id="C180042669" lemma_l="6604" rend="nos">nos</w>&#x00BB;
+<lb n="S_CLVI_1_5"/><w id="C180042670" lemma_l="3163" rend="dominus">Dominus</w> <w id="C180042671" lemma_l="7109" rend="passionem">passionem</w> <w id="C180042672" lemma_l="180" rend="acerbissimam">acerbissimam</w>.
+</p>
+<fw type="n" n="2" rend="+"/>
+<p rend="indent"><lb n="S_CLVI_2_1"/>&#x00AB;<w id="C180042673" lemma_l="3144" rend="dolor">Dolor</w>&#x00BB; <w id="C180042674" lemma_l="3372" rend="enim">enim</w> &#x00AB;<w id="C180042675" lemma_l="3712" rend="exterior">exterior</w>&#x00BB; <w id="C180042676" lemma_l="3504" rend="ex">ex</w> <w id="C180042677" lemma_l="5554" rend="laceratione">laceratione</w> <w id="C180042678" lemma_l="2377" rend="corporis">cor&#x00AC;poris</w>
+<lb n="S_CLVI_2_2"/><w id="C180042679" lemma_l="3450" rend="et">et</w> &#x00AB;<w id="C180042680" lemma_l="5250" rend="interior">interior</w>&#x00BB; <w id="C180042681" lemma_l="3504" rend="ex">ex</w> &#x00AB;<w id="C180042682" lemma_l="9945" rend="tristitia">tristitia</w>&#x00BB; <w id="C180042683" lemma_l="5904" rend="maior">maior</w> <w id="C180042684" lemma_l="9483" rend="esse">esse</w> <w id="C180042685" lemma_l="6591" rend="non">non</w>
+<lb n="S_CLVI_2_3"/><w id="C180042686" lemma_l="7563" rend="potuit">potuit</w>, <w id="C180042687" lemma_l="10106" rend="ut">ut</w> <w id="C180042688" lemma_l="2594" rend="declarat">declarat</w> <w id="C180042689" lemma_l="8757" rend="sanctus">sanctus</w> <hi rend="spaced"><w id="C180042690" lemma_n="117" rend="thomas">Thomas</w></hi> <w id="C180042691" lemma_l="4768" rend="in">in</w> <w id="C180042692" lemma_l="9749" rend="tertia">tertia</w>
+<lb n="S_CLVI_2_4"/><w id="C180042693" lemma_l="7069" rend="parte">parte</w> <w id="C180042694" lemma_l="9487" lemma_o="150" rend="summae">Summae</w> q.46. &#x00AB;<w id="C180042695" lemma_l="3712" rend="exterior">Exterior</w>&#x00BB; &#x00AB;<w id="C180042696" lemma_l="8959" rend="sensibilis">sensibilis</w>&#x00BB; <w id="C180042697" lemma_l="5905" rend="maximus">ma&#x00AC;ximus</w>
+<lb n="S_CLVI_2_5"/><w id="C180042698" lemma_l="9483" rend="fuisse">fuisse</w> <w id="C180042699" lemma_l="2318" rend="convincitur">convincitur</w>, <w id="C180042700" lemma_l="8169" rend="quia">quia</w> <w id="C180042701" lemma_l="11845" rend="christus">Christus</w> <w id="C180042702" lemma_l="6569" rend="nobilissimae">nobilis&#x00AC;simae</w>
+<lb n="S_CLVI_2_6"/><w id="C180042703" lemma_l="1905" rend="complexionis">complexionis</w>, <w id="C180042704" lemma_l="3450" rend="et">et</w> <w id="C180042705" lemma_l="5392" rend="eius">eius</w> <w id="C180042706" lemma_l="9714" rend="tenerrima">tenerrima</w> <w id="C180042707" lemma_l="1867" rend="compactione">compac&#x00AC;tione</w>,
+<lb n="S_CLVI_2_7"/><w id="C180042708" lemma_l="3450" rend="et">et</w> <w id="C180042709" lemma_l="8169" rend="quia">quia</w> <w id="C180042710" lemma_l="4768" rend="in">in</w> <w id="C180042711" lemma_l="6846" rend="omnibus">omnibus</w> <w id="C180042712" lemma_l="6091" rend="membris">membris</w> <w id="C180042713" lemma_l="7131" rend="passus">passus</w> <w id="C180042714" lemma_l="9483" rend="est">est</w> <w id="C180042715" lemma_l="3450" rend="et">et</w>
+<lb n="S_CLVI_2_8"/><w id="C180042716" lemma_l="1883" rend="compassus">compassus</w> <w id="C180042717" lemma_l="9483" rend="est">est</w> <w id="C180042718" lemma_l="6022" rend="matri">matri</w> <w id="C180042719" lemma_l="5884" rend="maestissimae">maestissimae</w>; <w id="C180042720" lemma_l="11602" rend="quantum">quantum</w> <w id="C180042721" lemma_l="1041" rend="autem">au&#x00AC;tem</w>
+<lb n="S_CLVI_2_9"/><w id="C180042722" lemma_l="7123" rend="patet">patet</w>, <w id="C180042723" lemma_l="8169" rend="quia">quia</w> <w id="C180042724" lemma_l="5231" rend="inter">inter</w> <w id="C180042725" lemma_l="643" rend="angustias">angustias</w> <w id="C180042726" lemma_l="6014" rend="martyrii">martyrii</w> <w id="C180042727" lemma_l="211" rend="ad">ad</w> <w id="C180042728" lemma_l="6022" rend="matrem">ma&#x00AC;trem</w>
+<lb n="S_CLVI_2_10"/><w id="C180042729" lemma_l="2311" rend="conversus">conversus</w> <w id="C180042730" lemma_l="461" rend="aiebat">aiebat</w>: &#x00AB;<w id="C180042731" lemma_l="6362" rend="mulier">Mulier</w>, <w id="C180042732" lemma_l="3242" rend="ecce">ecce</w>&#x00BB; <w id="C180042733" lemma_l="1" rend="etc">etc</w>.
+</p>
+<p rend="indent"><lb n="S_CLVI_2_11"/><w id="C180042734" lemma_l="5407" rend="item">Item</w> &#x2039;<w id="C180042735" lemma_l="7962" rend="propter">propter</w> <w id="C180042736" lemma_l="4214" rend="genus">genus</w> <w id="C180042737" lemma_l="7109" rend="passionis">passionis</w>, <w id="C180042738" lemma_l="8169" rend="quia">quia</w> <w id="C180042739" lemma_l="6334" rend="mors">mors</w> <w id="C180042740" lemma_l="2450" rend="crucifixorum">cru&#x00AC;cifixorum</w>
+<lb n="S_CLVI_2_12"/><w id="C180042741" lemma_l="9483" rend="fuit">fuit</w> <w id="C180042742" lemma_l="180" rend="acerbissima">acerbissima</w> <w id="C180042743" lemma_l="4768" rend="in">in</w> <w id="C180042744" lemma_l="12981" rend="hoc">hoc</w>&#x203A;, <w id="C180042745" lemma_l="8208" rend="quod">quod</w> &#x00AB;<w id="C180042746" lemma_l="2035" rend="configuntur">confi&#x00AC;guntur</w>
+<lb n="S_CLVI_2_13"/><w id="C180042747" lemma_l="4768" rend="in">in</w> <w id="C180042748" lemma_l="5779" rend="locis">locis</w> <w id="C180042749" lemma_l="6522" rend="nervosis">nervosis</w>&#x00BB;, <w id="C180042750" lemma_l="3450" rend="et">et</w> &#x2039;<w id="C180042751" lemma_l="6334" rend="mors">mors</w> <w id="C180042752" lemma_l="3090" rend="diuturnior">diuturnior</w>&#x203A;.
+</p>
+<p rend="indent"><lb n="S_CLVI_2_14"/><w id="C180042753" lemma_l="5407" rend="item">Item</w>, <w id="C180042754" lemma_l="7962" rend="propter">propter</w> <w id="C180042755" lemma_l="388" rend="aetatem">aetatem</w> <w id="C180042756" lemma_l="5474" rend="iuvenilem">iuvenilem</w> <w id="C180042757" lemma_l="10440" rend="vivacem">vivacem</w>.
+</p>
+<p rend="indent"><lb n="S_CLVI_2_15"/><w id="C180042758" lemma_l="5407" rend="item">Item</w> &#x2039;<w id="C180042759" lemma_l="5701" rend="liberare">liberare</w> <w id="C180042760" lemma_l="10459" rend="voluit">voluit</w> <w id="C180042761" lemma_l="6846" rend="omnes">omnes</w> <w id="C180042762" lemma_l="46" rend="a">a</w> <w id="C180042763" lemma_l="7170" rend="peccatis">peccatis</w> <w id="C180042764" lemma_l="6591" rend="non">non</w> <w id="C180042765" lemma_l="7585" rend="potestate">po&#x00AC;testate</w>
+<lb n="S_CLVI_2_16"/><w id="C180042766" lemma_l="8909" rend="sed">sed</w> <w id="C180042767" lemma_l="5469" rend="iustitia">iustitia</w>&#x203A;. <w id="C180042768" lemma_l="4551" rend="ideo">Ideo</w> <w id="C180042769" lemma_l="12985" rend="pro">pro</w> <w id="C180042770" lemma_l="6846" rend="omnibus">omnibus</w> <w id="C180042771" lemma_l="7131" rend="passus">passus</w> <w id="C180042772" lemma_l="9483" rend="est">est</w>
+<lb n="S_CLVI_2_17"/><w id="C180042773" lemma_l="7170" rend="peccatis">peccatis</w> <w id="C180042774" lemma_l="3450" rend="et">et</w> <w id="C180042775" lemma_l="7168" rend="peccatoribus">peccatoribus</w> <w id="C180042776" lemma_l="5109" rend="innumerabilibus">innumerabilibus</w> <w id="C180042777" lemma_l="3450" rend="et">et</w> <w id="C180042778" lemma_l="5905" rend="maximis">ma&#x00AC;ximis</w>.
+<lb n="S_CLVI_2_18"/>
+</p>
+<p rend="indent"><lb n="S_CLVI_2_19"/><w id="C180042779" lemma_l="5407" rend="item">Item</w>, <w id="C180042780" lemma_l="9944" rend="tristis">tristis</w> <w id="C180042781" lemma_l="9501" rend="super">super</w> <w id="C180042782" lemma_l="6846" rend="omnes">omnes</w>, <w id="C180042783" lemma_l="8169" rend="quia">quia</w> <w id="C180042784" lemma_l="9944" rend="tristis">tristis</w> <w id="C180042785" lemma_l="7962" rend="propter">propter</w>
+<lb n="S_CLVI_2_20"/><w id="C180042786" lemma_l="6846" rend="omnia">omnia</w> <w id="C180042787" lemma_l="7170" rend="peccata">peccata</w> <w id="C180042788" lemma_l="1" rend="etc">etc</w>., <w id="C180042789" lemma_l="3450" rend="et">et</w> <w id="C180042790" lemma_l="6377" rend="multitudo">multitudo</w> <w id="C180042791" lemma_l="3450" rend="et">et</w> <w id="C180042792" lemma_l="5903" rend="magnitudo">magnitudo</w>
+<lb n="S_CLVI_2_21"/><w id="C180042793" lemma_l="7170" rend="peccatorum">peccatorum</w> <w id="C180042794" lemma_l="7830" rend="probat">probat</w> <w id="C180042795" lemma_l="5392" rend="eum">eum</w> <w id="C180042796" lemma_l="9944" rend="tristissimum">tristissimum</w> <w id="C180042797" lemma_l="1" rend="etc">etc</w>., <w id="C180042798" lemma_l="3450" rend="et">et</w> <w id="C180042799" lemma_l="1670" rend="claritas">cla&#x00AC;ritas</w>
+<lb n="S_CLVI_2_22"/><w id="C180042800" lemma_l="1736" rend="cognitionis">cognitionis</w> <w id="C180042801" lemma_l="7170" rend="peccatorum">peccatorum</w> <w id="C180042802" lemma_l="1005" rend="augebat">augebat</w> <w id="C180042803" lemma_l="9945" rend="tristitiam">tristitiam</w>.
+<lb n="S_CLVI_2_23"/><w id="C180042804" lemma_l="5946" rend="malum">Malum</w> <w id="C180042805" lemma_l="9655" rend="tanto">tanto</w> <w id="C180042806" lemma_l="13226" rend="plus">plus</w> <w id="C180042807" lemma_l="3018" rend="displicet">displicet</w>, <w id="C180042808" lemma_l="8147" rend="quanto">quanto</w> <w id="C180042809" lemma_l="13226" rend="plus">plus</w> <w id="C180042810" lemma_l="1745" rend="cognoscitur">cogno&#x00AC;scitur</w>.
+<lb n="S_CLVI_2_24"/>
+</p>
+<p rend="indent"><lb n="S_CLVI_2_25"/><w id="C180042811" lemma_l="5407" rend="item">Item</w> <w id="C180042812" lemma_l="5905" rend="maxima">maxima</w> <w id="C180042813" lemma_l="1425" rend="caritas">caritas</w> <w id="C180042814" lemma_l="3450" rend="et">et</w> <w id="C180042815" lemma_l="2936" rend="dilectio">dilectio</w> <w id="C180042816" lemma_l="2826" rend="dei">Dei</w>, <w id="C180042817" lemma_l="8167" rend="qui">qui</w> <w id="C180042818" lemma_l="6809" rend="offenditur">offen&#x00AC;ditur</w>
+<lb n="S_CLVI_2_26"/><w id="C180042819" lemma_l="7215" rend="per">per</w> <w id="C180042820" lemma_l="7170" rend="peccata">peccata</w>, <fw type="folio">Cod. Vat. Lat. 1245 fol.53<hi rend="superscript">va</hi></fw> <w id="C180042821" lemma_l="224" rend="adauxit">adauxit</w> <w id="C180042822" lemma_l="9945" rend="tristitiam">tristitiam</w>. <w id="C180042823" lemma_l="9944" rend="tristis">Tristis</w> <w id="C180042824" lemma_l="9483" rend="fuit">fuit</w>
+<lb n="S_CLVI_2_27"/><w id="C180042825" lemma_l="8140" rend="quando">quando</w> <w id="C180042826" lemma_l="10329" rend="vidit">vidit</w> <w id="C180042827" lemma_l="9655" rend="tantam">tantam</w> <w id="C180042828" lemma_l="5048" rend="ingratitudinem">ingratitudinem</w> <w id="C180042829" lemma_n="347" rend="judaeorum">Judaeorum</w>,
+<lb n="S_CLVI_2_28"/><w id="C180042830" lemma_l="8167" rend="quibus">quibus</w> <w id="C180042831" lemma_l="3125" rend="dedit">dedit</w> <w id="C180042832" lemma_l="9840" rend="tot">tot</w> <w id="C180042833" lemma_l="1189" rend="bona">bona</w>, &#x2039;<w id="C180042834" lemma_l="9737" rend="terram">terram</w> <w id="C180042835" lemma_l="3992" rend="fluentem">fluentem</w> <w id="C180042836" lemma_l="5553" rend="lac">lac</w> <w id="C180042837" lemma_l="3450" rend="et">et</w>
+<lb n="S_CLVI_2_29"/><w id="C180042838" lemma_l="6080" rend="mel">mel</w>&#x203A; <w id="C180042839" lemma_l="1" rend="etc">etc</w>. <w id="C180042840" lemma_l="3450" rend="et">et</w> <w id="C180042841" lemma_l="9840" rend="tot">tot</w> <w id="C180042842" lemma_l="2497" rend="curas">curas</w>. <w id="C180042843" lemma_l="1" rend="etc">etc</w>.
+</p>
+<p rend="indent"><lb n="S_CLVI_2_30"/><w id="C180042844" lemma_l="5407" rend="item">Item</w> <w id="C180042845" lemma_l="1453" rend="casus">casus</w> <w id="C180042846" lemma_l="9606" rend="suorum">suorum</w> <w id="C180042847" lemma_l="2976" rend="discipulorum">discipulorum</w>.
+</p>
+<p rend="indent"><lb n="S_CLVI_2_31"/><w id="C180042848" lemma_l="5407" rend="item">Item</w>, <w id="C180042849" lemma_l="8169" rend="quia">quia</w> <w id="C180042850" lemma_l="10208" rend="venditus">venditus</w> <w id="C180042851" lemma_l="46" rend="a">a</w> <w id="C180042852" lemma_l="2976" rend="discipulo">discipulo</w>.
+</p>
+<p rend="indent"><lb n="S_CLVI_2_32"/><w id="C180042853" lemma_l="5407" rend="item">Item</w>, <w id="C180042854" lemma_l="8169" rend="quia">quia</w> <w id="C180042855" lemma_l="3060" rend="distinctissime">distinctissime</w> <w id="C180042856" lemma_l="649" rend="anima">anima</w> <w id="C180042857" lemma_l="5392" rend="eius">eius</w> <w id="C180042858" lemma_l="6846" rend="omnia">omnia</w>
+<lb n="S_CLVI_2_33"/><w id="C180042859" lemma_l="7222" rend="percepit">percepit</w>, <w id="C180042860" lemma_l="8167" rend="quae">quae</w> <w id="C180042861" lemma_l="6276" rend="molestiam">molestiam</w> <w id="C180042862" lemma_l="4992" rend="inferunt">inferunt</w>: <w id="C180042863" lemma_l="4551" rend="ideo">ideo</w> <w id="C180042864" lemma_l="9944" rend="tristissima">tristissi&#x00AC;ma</w>
+<lb n="S_CLVI_2_34"/><w id="C180042865" lemma_l="1" rend="etc">etc</w>.
+<pb n="170"/>
+</p>
+<fw type="n" n="3" rend="+"/>
+<p rend="indent"><lb n="S_CLVI_3_1"/><w id="C180042866" lemma_l="5407" rend="item">Item</w> <w id="C180042867" lemma_l="6618" rend="nota">nota</w> <w id="C180042868" lemma_l="3557" rend="exemplum">exemplum</w> <w id="C180042869" lemma_l="2552" rend="de">de</w> <w id="C180042870" lemma_l="9020" rend="serpente">serpente</w> <w id="C180042871" lemma_l="349" rend="aeneo">aeneo</w> <w id="C180042872" lemma_n="339" lemma_o="38" rend="johannis">Jo&#x00AC;hannis</w>
+<lb n="S_CLVI_3_2"/><w id="C180042873" lemma_l="9749" rend="tertio">tertio</w>.
+</p>
+<p rend="indent"><lb n="S_CLVI_3_3"/> <w id="C180042874" lemma_l="8212" link_l="180042875" rend="quo">Quo</w> <w id="C180042875" lemma_l="0" link_l="180042874" rend="modo">modo</w> <w id="C180042876" lemma_l="5165" rend="inspectio">inspectio</w> <w id="C180042877" lemma_l="2507" rend="curavit">curavit</w>, <w id="C180042878" lemma_l="5404" rend="ita">ita</w> <w id="C180042879" lemma_l="6095" rend="memoria">memoria</w>
+<lb n="S_CLVI_3_4"/><w id="C180042880" lemma_l="7109" rend="passionis">passionis</w>. <w id="C180042881" lemma_l="8909" rend="sed">Sed</w> <w id="C180042882" lemma_l="9020" rend="serpens">serpens</w> <w id="C180042883" lemma_l="349" rend="aeneus">aeneus</w> <w id="C180042884" lemma_l="6591" rend="non">non</w> <w id="C180042885" lemma_l="2507" rend="curavit">curavit</w> <w id="C180042886" lemma_l="6559" rend="nisi">nisi</w>
+<lb n="S_CLVI_3_5"/><w id="C180042887" lemma_l="8167" rend="qui">qui</w> <w id="C180042888" lemma_l="2481" rend="cum">cum</w> <w id="C180042889" lemma_l="3908" rend="fide">fide</w> <w id="C180042890" lemma_l="142" rend="accessit">accessit</w> <w id="C180042891" lemma_l="211" rend="ad">ad</w> <w id="C180042892" lemma_l="10329" rend="videndum">videndum</w>. <w id="C180042893" lemma_l="9052" rend="sic">Sic</w> <w id="C180042894" lemma_l="11845" rend="christus">Christus</w>,
+<lb n="S_CLVI_3_6"/><w id="C180042895" lemma_l="9049" rend="si">si</w> <w id="C180042896" lemma_l="142" rend="acceditur">acceditur</w> <w id="C180042897" lemma_l="2481" rend="cum">cum</w> <w id="C180042898" lemma_l="3908" rend="fide">fide</w> <w id="C180042899" lemma_l="10106" rend="ut">ut</w> <w id="C180042900" lemma_l="9483" rend="est">est</w> <w id="C180042901" lemma_l="4768" rend="in">in</w> <w id="C180042902" lemma_l="2459" rend="cruce">cruce</w>, <w id="C180042903" lemma_l="8770" rend="sanat">sanat</w> <w id="C180042904" lemma_l="1" rend="etc">etc</w>.
+</p>
+<p rend="indent"><lb n="S_CLVI_3_7"/><w id="C180042905" lemma_l="2145" rend="considera">Considera</w> <w id="C180042906" lemma_l="11830" rend="optimum">optimum</w> <w id="C180042907" lemma_l="3557" rend="exemplum">exemplum</w>: <w id="C180042908" lemma_l="9020" rend="serpens">Serpens</w> <w id="C180042909" lemma_l="10449" rend="vivus">vi&#x00AC;vus</w>
+<lb n="S_CLVI_3_8"/><w id="C180042910" lemma_l="6326" rend="mordet">mordet</w>, <w id="C180042911" lemma_l="3450" rend="et">et</w> <w id="C180042912" lemma_l="6328" rend="mortuus">mortuus</w> <w id="C180042913" lemma_l="5701" rend="liberat">liberat</w>. <w id="C180042914" lemma_l="3450" rend="et">Et</w> <w id="C180042915" lemma_l="6618" rend="nota">nota</w> <w id="C180042916" lemma_l="3636" rend="expositionem">exposi&#x00AC;tionem</w>
+<lb n="S_CLVI_3_9"/><hi rend="spaced"><w id="C180042917" lemma_n="4" rend="augustini">Augustini</w></hi>.
+</p>
+<fw type="n" n="4" rend="+"/>
+<p rend="indent"><lb n="S_CLVI_4_1"/><w id="C180042918" lemma_l="5407" rend="item">Item</w> <w id="C180042919" lemma_l="2145" rend="considera">considera</w> <w id="C180042920" lemma_l="1190" rend="bene">bene</w> <w id="C180042921" lemma_l="2514" rend="cursum">cursum</w> <w id="C180042922" lemma_l="7109" rend="passionis">passionis</w>, <w id="C180042923" lemma_l="8212" link_l="180042924" rend="quo">quo</w>
+<lb n="S_CLVI_4_2"/><w id="C180042924" lemma_l="0" link_l="180042923" rend="modo">modo</w> <w id="C180042925" lemma_l="6846" rend="omnia">omnia</w> <w id="C180042926" lemma_l="7215" rend="per">per</w> <w id="C180042927" lemma_l="6917" rend="ordinem">ordinem</w> <w id="C180042928" lemma_l="4224" rend="gesta">gesta</w> <w id="C180042929" lemma_l="9483" rend="sunt">sunt</w>, <w id="C180042930" lemma_l="10108" rend="ut">ut</w> <w id="C180042931" lemma_l="3635" rend="exposcat">expo&#x00AC;scat</w>
+<lb n="S_CLVI_4_3"/><w id="C180042932" lemma_l="9756" rend="testimonium">testimonium</w> <w id="C180042933" lemma_l="4768" rend="in">in</w> <w id="C180042934" lemma_l="8768" rend="sanguine">sanguine</w>, <w id="C180042935" lemma_l="2252" rend="contra">contra</w> <w id="C180042936" lemma_l="8167" rend="quod">quod</w> <w id="C180042937" lemma_l="6644" rend="nulla">nulla</w>
+<lb n="S_CLVI_4_4"/><w id="C180042938" lemma_l="7563" rend="potest">potest</w> <w id="C180042939" lemma_l="1733" rend="cogitari">cogitari</w> <w id="C180042940" lemma_l="3525" rend="exceptio">exceptio</w>.
+</p>
+<p rend="indent"><lb n="S_CLVI_4_5"/><w id="C180042941" lemma_l="6433" rend="nam">Nam</w> <w id="C180042942" lemma_l="3761" rend="factus">factus</w> <w id="C180042943" lemma_l="9483" rend="est">est</w> <w id="C180042944" lemma_l="4768" rend="in">in</w> <w id="C180042945" lemma_l="454" rend="agonia">agonia</w>, <w id="C180042946" lemma_l="10108" rend="ut">ut</w> <w id="C180042947" lemma_l="7830" rend="probaretur">probaretur</w> <w id="C180042948" lemma_l="5392" rend="eum">eum</w>
+<lb n="S_CLVI_4_6"/><w id="C180042949" lemma_l="3504" rend="ex">ex</w> <w id="C180042950" lemma_l="12981" rend="hoc">hoc</w>, <w id="C180042951" lemma_l="8169" rend="quia">quia</w> <w id="C180042952" lemma_l="3931" rend="filius">Filius</w> <w id="C180042953" lemma_l="2826" rend="dei">Dei</w>, <w id="C180042954" lemma_l="6591" rend="non">non</w> <w id="C180042955" lemma_l="7087" rend="minus">minus</w> <w id="C180042956" lemma_l="7131" rend="pati">pati</w> <w id="C180042957" lemma_l="8132" rend="quam">quam</w>
+<lb n="S_CLVI_4_7"/><w id="C180042958" lemma_l="526" rend="alium">alium</w> <w id="C180042959" lemma_l="4434" rend="hominem">hominem</w>, <w id="C180042960" lemma_l="3450" rend="et">et</w> <w id="C180042961" lemma_l="6334" rend="mors">mors</w> <w id="C180042962" lemma_l="9481" rend="se">se</w> <w id="C180042963" lemma_l="5392" rend="ei">ei</w> <w id="C180042964" lemma_l="9744" rend="terribilissime">terribilissime</w>
+<lb n="S_CLVI_4_8"/><w id="C180042965" lemma_l="7717" rend="praesentaret">praesentaret</w> <w id="C180042966" lemma_l="13226" rend="plus">plus</w> <w id="C180042967" lemma_l="8132" rend="quam">quam</w> <w id="C180042968" lemma_l="526" rend="aliis">aliis</w>.
+</p>
+<p rend="indent"><lb n="S_CLVI_4_9"/><w id="C180042969" lemma_l="7131" rend="passus">Passus</w> <w id="C180042970" lemma_l="9483" rend="est">est</w> <w id="C180042971" lemma_l="4768" rend="in">in</w> <w id="C180042972" lemma_l="2882" rend="die">die</w>, <w id="C180042973" lemma_l="10108" rend="ut">ut</w> <w id="C180042974" lemma_l="9156" rend="sole">sole</w> <w id="C180042975" lemma_l="7229" rend="perdente">perdente</w> <w id="C180042976" lemma_l="5859" rend="lucem">lucem</w> <w id="C180042977" lemma_l="6334" rend="mors">mors</w>
+<lb n="S_CLVI_4_10"/><w id="C180042978" lemma_l="9606" rend="sua">sua</w> <w id="C180042979" lemma_l="5101" rend="innocens">innocens</w> <w id="C180042980" lemma_l="966" rend="attestaretur">attestaretur</w> <w id="C180042981" lemma_l="1" rend="etc">etc</w>., <w id="C180042982" lemma_l="9372" rend="sub">sub</w> <w id="C180042983" lemma_n="322" rend="pilato">Pilato</w>, <w id="C180042984" lemma_l="8167" rend="qui">qui</w> <w id="C180042985" lemma_l="9840" rend="tot">tot</w>
+<lb n="S_CLVI_4_11"/><w id="C180042986" lemma_l="8966" rend="sententiis">sententiis</w> <w id="C180042987" lemma_l="5392" rend="eum">eum</w> <w id="C180042988" lemma_l="5101" rend="innocentem">innocentem</w> <w id="C180042989" lemma_l="5433" rend="iudicavit">iudicavit</w>, <w id="C180042990" lemma_l="3450" rend="et">et</w> <w id="C180042991" lemma_l="9648" rend="tamen">tamen</w>
+<lb n="S_CLVI_4_12"/><w id="C180042992" lemma_l="7757" rend="praevaluit">praevaluit</w> <w id="C180042993" lemma_l="7170" rend="peccatum">peccatum</w> <w id="C180042994" lemma_l="4768" rend="in">in</w> <w id="C180042995" lemma_l="5392" rend="eo">eo</w> <w id="C180042996" lemma_l="1" rend="etc">etc</w>.
+</p>
+<p rend="indent"><lb n="S_CLVI_4_13"/><w id="C180042997" lemma_l="7806" rend="primo">Primo</w> <w id="C180042998" lemma_l="8113" rend="quaeritur">quaeritur</w>, &#x2039;<w id="C180042999" lemma_l="618" rend="an">an</w> <w id="C180043000" lemma_l="2296" rend="conveniens">conveniens</w> <w id="C180043001" lemma_l="9483" rend="fuit">fuit</w> <w id="C180043002" lemma_l="11845" rend="christum">Christum</w>
+<lb n="S_CLVI_4_14"/><w id="C180043003" lemma_l="6327" rend="mori">mori</w> <w id="C180043004" lemma_l="7962" rend="propter">propter</w> <w id="C180043005" lemma_l="7170" rend="peccatum">peccatum</w> <w id="C180043006" lemma_n="36" rend="adae">Adae</w>&#x203A;.
+</p>
+<p rend="indent"><lb n="S_CLVI_4_15"/>&#x2039;<w id="C180043007" lemma_l="10329" rend="videtur">Videtur</w> <w id="C180043008" lemma_l="8208" rend="quod">quod</w> <w id="C180043009" lemma_l="6591" rend="non">non</w>, <w id="C180043010" lemma_l="8169" rend="quia">quia</w> <w id="C180043011" lemma_l="6591" rend="non">non</w> <w id="C180043012" lemma_l="9483" rend="esset">esset</w> <w id="C180043013" lemma_l="2296" rend="conveniens">conveni&#x00AC;ens</w>,
+<lb n="S_CLVI_4_16"/><w id="C180043014" lemma_l="8208" rend="quod">quod</w> <w id="C180043015" lemma_l="3149" rend="domicellus">domicellus</w> <w id="C180043016" lemma_l="7962" rend="propter">propter</w> <w id="C180043017" lemma_l="4151" rend="furtum">furtum</w> <w id="C180043018" lemma_l="7521" rend="pomi">pomi</w> <w id="C180043019" lemma_l="9589" rend="suspenderetur">sus&#x00AC;penderetur</w>
+<lb n="S_CLVI_4_17"/><w id="C180043020" lemma_l="1040" rend="aut">aut</w> <w id="C180043021" lemma_l="8208" rend="quod">quod</w> <w id="C180043022" lemma_l="3163" rend="dominus">dominus</w> <w id="C180043023" lemma_l="7962" rend="propter">propter</w> <w id="C180043024" lemma_l="9037" rend="servum">servum</w>&#x203A;
+<lb n="S_CLVI_4_18"/><w id="C180043025" lemma_l="1" rend="etc">etc</w>.
+</p>
+<p rend="indent"><lb n="S_CLVI_4_19"/><w id="C180043026" lemma_l="10329" rend="vide">Vide</w> <w id="C180043027" lemma_l="4768" rend="in">in</w> <w id="C180043028" lemma_l="9013" lemma_o="180" rend="sermonibus">sermonibus</w> <w id="C180043029" lemma_n="819" link_n="180043030" rend="aldobrandini">A&#x003C;ldobrandini&#x003E;</w> <w id="C180043030" lemma_n="0" link_n="180043029" rend="tuscanelli">Tuscanelli</w>.
+</p>
+</div3>
+</div2>
+</div1>
+</div0>
+</body>
+</text>
+</TEI.2>

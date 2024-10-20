@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "tei.dtd" [
+]>
+<TEI.2 id="C0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Nicolaus de Cusa: Sermones II (1443-1452)</title>
+<respStmt>
+<resp>compiled by</resp> <name>Niels Bohnert, Tom M&#x00FC;ller, Johannes Leicht, Katrin Stepp</name>
+</respStmt>
+</titleStmt>
+
+<editionStmt>
+<edition>SGML encoded Version, <date>Januar 2008</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>DFG-Projekt "Cusanus-Portal"</publisher>
+<pubPlace>Trier</pubPlace>
+<publisher>Institut f&#x00FC;r Cusanus-Forschung</publisher>
+<pubPlace>Trier</pubPlace>
+<date>Januar 2008</date>
+<availability><p>Copyright 2008</p></availability>
+</publicationStmt>
+
+<seriesStmt>
+<title>SGML encoded Texts for the Project "Cusanus-Portal"</title>
+</seriesStmt>
+
+<sourceDesc>
+<bibl>
+<title type="main" level="m">Sermones II (1443-1452)</title>
+<author>Nicolaus de Cusa</author>
+<editor role="editor">Rudolf Haubst</editor>
+<editor role="editor">Heidi Hein</editor>
+<editor role="editor">Hermann Schnarr</editor>
+<imprint>
+<pubPlace>Hamburg</pubPlace>
+<publisher>Meiner</publisher>
+<date>1988-2007</date>
+</imprint>
+<series>
+<title level="s">Nicolai de Cusa opera omnia iussu et auctoritate Academiae Litterarum Heidelbergensis ad codicum fidem edita</title>
+<biblScope>XVII</biblScope>
+</series>
+</bibl>
+</sourceDesc>
+
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div0 type="corpus" n="Nicolai de Cusa opera omnia">
+<div1 type="genre" n="Serm">
+<div2 type="vol" n="17">
+<div3 type="work" id="NvK-S_LV">
+
+
+<pb n="266"/>
+<fw type="n" n="1" rend="+"/>
+<p rend="indent"><lb n="S_LV_1_1"/><fw type="folio">54v</fw> &#x00AB;<w id="C170047610" rend="maria">Maria</w> <w id="C170047611" rend="optimam">optimam</w> <w id="C170047612" rend="partem">partem</w> <w id="C170047613" rend="elegit">elegit</w>, <w id="C170047614" rend="quae">quae</w> <w id="C170047615" rend="non">non</w>
+<lb n="S_LV_1_2"/><w id="C170047616" rend="auferetur">auferetur</w> <w id="C170047617" rend="ab">ab</w> <w id="C170047618" rend="ea">ea</w>&#x00BB; &#x003C;<w id="C170047619" rend="lucae">Lucae</w> 10<hi rend="superscript">o</hi>&#x003E;, <w id="C170047621" rend="et">et</w> <w id="C170047622" rend="propterea">propterea</w>
+<lb n="S_LV_1_3"/><w id="C170047623" rend="hodie">hodie</w> &#x00AB;<w id="C170047624" rend="exaltata">exaltata</w> <w id="C170047625" rend="est">est</w> <w id="C170047626" rend="sancta">sancta</w> <w id="C170047627" rend="dei">Dei</w> <w id="C170047628" rend="genitrix">genitrix</w> <w id="C170047629" rend="super">super</w>
+<lb n="S_LV_1_4"/><w id="C170047630" rend="choros">choros</w> <w id="C170047631" rend="angelorum">angelorum</w> <w id="C170047632" rend="ad">ad</w> <w id="C170047633" rend="caelestia">caelestia</w> <w id="C170047634" rend="regna">regna</w>&#x00BB;.
+</p>
+<p rend="indent"><lb n="S_LV_1_5"/><w id="C170047635" rend="locuturus">Locuturus</w> <w id="C170047636" rend="de">de</w> <w id="C170047637" rend="sancta">sancta</w> &#x00AB;<w id="C170047638" rend="theotocos">Theotocos</w>&#x00BB;, <w id="C170047639" rend="de">de</w> <w id="C170047640" rend="qua">qua</w>
+<lb n="S_LV_1_6"/><w id="C170047641" rend="nemo">nemo</w> <w id="C170047642" rend="sufficienter">sufficienter</w> <w id="C170047643" rend="quidquam">quidquam</w> <w id="C170047644" rend="loqui">loqui</w> <w id="C170047645" rend="potest">potest</w>,
+<lb n="S_LV_1_7"/><w id="C170047646" rend="cum">cum</w> <w id="C170047647" rend="sit">sit</w> <w id="C170047648" rend="dei">Dei</w> <w id="C170047649" rend="genitrix">genitrix</w>, <w id="C170047650" rend="quae">quae</w> <w id="C170047651" rend="suo">suo</w> <w id="C170047652" rend="utero">utero</w> <w id="C170047653" rend="clausit">clausit</w>,
+<lb n="S_LV_1_8"/><w id="C170047654" rend="quem">quem</w> <w id="C170047655" rend="non">non</w> <w id="C170047656" rend="capit">capit</w> <w id="C170047657" rend="orbis">orbis</w>, <w id="C170047658" rend="assumpsi">assumpsi</w> <w id="C170047659" rend="id">id</w>, <w id="C170047660" rend="quod">quod</w>
+<lb n="S_LV_1_9"/><w id="C170047661" rend="sancta">sancta</w> <w id="C170047662" rend="ecclesia">ecclesia</w> <w id="C170047663" rend="canit">canit</w>: &#x00AB;<w id="C170047664" rend="exaltata">Exaltata</w> <w id="C170047665" rend="est">est</w>&#x00BB; <w id="C170047666" rend="etc">etc</w>.  &#x2013;
+<lb n="S_LV_1_10"/><w id="C170047667" rend="oremus">Oremus</w> <w id="C170047668" rend="etc">etc</w>.
+</p>
+<fw type="n" n="2" rend="+"/>
+<p rend="indent"><lb n="S_LV_2_1"/><w id="C170047669" rend="tria">Tria</w> <w id="C170047670" rend="tanguntur">tanguntur</w> <w id="C170047671" rend="in">in</w> <w id="C170047672" rend="themate">themate</w>, <w id="C170047673" rend="scilicet">scilicet</w> <w id="C170047674" rend="quod">quod</w>
+<lb n="S_LV_2_2"/>&#x00AB;<w id="C170047675" rend="maria">Maria</w>&#x00BB; <w id="C170047676" rend="fuit">fuit</w>, <w id="C170047677" rend="hoc">hoc</w> <w id="C170047678" rend="est">est</w> &#x00AB;<w id="C170047679" rend="illuminata">illuminata</w>&#x00BB;; <w id="C170047680" rend="et">et</w> <w id="C170047681" rend="ita">ita</w> &#x003C;<w id="C170047682" rend="jesus">Je&#x00AC;sus</w>&#x003E;
+<lb n="S_LV_2_3"/><w id="C170047683" rend="est">est</w> &#x00AB;<w id="C170047684" rend="veritas">veritas</w>&#x00BB;, <w id="C170047685" rend="quae">quae</w> <w id="C170047686" rend="intravit">intravit</w> <w id="C170047687" rend="ad">ad</w> <w id="C170047688" rend="illuminandum">illuminan&#x00AC;dum</w>;
+<lb n="S_LV_2_4"/>
+</p>
+<p rend="indent"><lb n="S_LV_2_5"/><w id="C170047689" rend="item">item</w>, <w id="C170047690" rend="quod">quod</w> <w id="C170047691" rend="ipsa">ipsa</w> &#x00AB;<w id="C170047692" rend="optimam">optimam</w> <w id="C170047693" rend="partem">partem</w> <w id="C170047694" rend="elegit">elegit</w>&#x00BB;,
+<pb n="267"/>
+<lb n="S_LV_2_6"/><w id="C170047695" rend="et">et</w> <w id="C170047696" rend="sic">sic</w> &#x00AB;<w id="C170047697" rend="vita">vita</w>&#x00BB; <w id="C170047698" rend="intravit">intravit</w>;
+</p>
+<p rend="indent"><lb n="S_LV_2_7"/><w id="C170047699" rend="et">et</w> <w id="C170047700" rend="quod">quod</w> &#x00AB;<w id="C170047701" rend="non">non</w> <w id="C170047702" rend="auferetur">auferetur</w>&#x00BB;, <w id="C170047703" rend="et">et</w> <w id="C170047704" rend="sic">sic</w> &#x00AB;<w id="C170047705" rend="via">via</w>&#x00BB; <w id="C170047706" rend="seu">seu</w>
+<lb n="S_LV_2_8"/><w id="C170047707" rend="forma">forma</w> <w id="C170047708" rend="intravit">intravit</w> <w id="C170047709" rend="etc">etc</w>.
+</p>
+<fw type="n" n="3" rend="+"/>
+<p rend="indent"><lb n="S_LV_3_1"/><w id="C170047710" rend="omnium">Omnium</w> <w id="C170047711" rend="sanctorum">sanctorum</w> <w id="C170047712" rend="festivitas">festivitas</w> <w id="C170047713" rend="tanto">tanto</w> <w id="C170047714" rend="inferior">infe&#x00AC;rior</w>
+<lb n="S_LV_3_2"/><w id="C170047715" rend="hac">hac</w> <w id="C170047716" rend="festivitate">festivitate</w>, <w id="C170047717" rend="quanto">quanto</w> <w id="C170047718" rend="nullus">nullus</w> <w id="C170047719" rend="sic">sic</w> <w id="C170047720" rend="est">est</w> &#x2039;<w id="C170047721" rend="exaltatus">ex&#x00AC;altatus</w>
+<lb n="S_LV_3_3"/><w id="C170047722" rend="super">super</w> <w id="C170047723" rend="choros">choros</w> <w id="C170047724" rend="angelorum">angelorum</w>&#x203A;. <w id="C170047725" rend="ipsa">Ipsa</w> <w id="C170047726" rend="enim">enim</w>
+<lb n="S_LV_3_4"/>&#x2039;<w id="C170047727" rend="supergressa">supergressa</w> <w id="C170047728" rend="est">est</w> <w id="C170047729" rend="universas">universas</w> <w id="C170047730" rend="divitias">divitias</w>&#x203A; <w id="C170047731" rend="omnium">omnium</w>
+<lb n="S_LV_3_5"/><w id="C170047732" rend="sanctorum">sanctorum</w>. <w id="C170047733" rend="nam">Nam</w> <w id="C170047734" rend="et">et</w> <w id="C170047735" rend="ipsa">ipsa</w> &#x00AB;<w id="C170047736" rend="optimam">optimam</w> <w id="C170047737" rend="partem">partem</w>
+<lb n="S_LV_3_6"/><w id="C170047738" rend="elegit">elegit</w>, <w id="C170047739" rend="quae">quae</w> <w id="C170047740" rend="non">non</w> <w id="C170047741" rend="auferetur">auferetur</w> <w id="C170047742" rend="ab">ab</w> <w id="C170047743" rend="ea">ea</w>&#x00BB; <w id="C170047744" rend="etc">etc</w>.
+</p>
+<p rend="indent"><lb n="S_LV_3_7"/><w id="C170047745" rend="et">Et</w> <w id="C170047746" rend="quoniam">quoniam</w> <w id="C170047747" rend="ad">ad</w> <w id="C170047748" rend="hoc">hoc</w> <w id="C170047749" rend="convenimus">convenimus</w>, <w id="C170047750" rend="ut">ut</w> <w id="C170047751" rend="de">de</w>
+<lb n="S_LV_3_8"/><w id="C170047752" rend="felicissimo">felicissimo</w> &#x2039;<w id="C170047753" rend="transitu">transitu</w> <w id="C170047754" rend="beatae">beatae</w> <w id="C170047755" rend="mariae">Mariae</w>&#x203A;, <w id="C170047756" rend="quae">quae</w> <w id="C170047757" rend="hodie">ho&#x00AC;die</w>
+<lb n="S_LV_3_9"/><w id="C170047758" rend="assumpta">assumpta</w> <w id="C170047759" rend="est">est</w>, <w id="C170047760" rend="gaudeamus">gaudeamus</w>, <w id="C170047761" rend="hinc">hinc</w>, <w id="C170047762" rend="ut">ut</w> <w id="C170047763" rend="brevius">bre&#x00AC;vius</w>
+<lb n="S_LV_3_10"/><w id="C170047764" rend="ad">ad</w> <w id="C170047765" rend="id">id</w> <w id="C170047766" rend="perducamur">perducamur</w>, <w id="C170047767" rend="quod">quod</w> <w id="C170047768" rend="sancta">sancta</w> <w id="C170047769" rend="ecclesia">ecclesia</w>
+<lb n="S_LV_3_11"/><w id="C170047770" rend="hodie">hodie</w> <w id="C170047771" rend="de">de</w> <w id="C170047772" rend="ipsa">ipsa</w> <w id="C170047773" rend="per">per</w> <w id="C170047774" rend="evangelium">evangelium</w> <w id="C170047775" rend="insinuat">insinuat</w>, <w id="C170047776" rend="ad">ad</w>
+<lb n="S_LV_3_12"/><w id="C170047777" rend="evangelium">evangelium</w> <w id="C170047778" rend="descendamus">descendamus</w> <w id="C170047779" rend="etc">etc</w>.
+</p>
+<fw type="n" n="4" rend="+"/>
+<p rend="indent"><lb n="S_LV_4_1"/>&#x00AB;<w id="C170047780" rend="intravit">Intravit</w> <w id="C170047781" rend="jesus">Jesus</w>&#x00BB; <w id="C170047782" rend="etc">etc</w>.
+</p>
+<p rend="indent"><lb n="S_LV_4_2"/><w id="C170047783" rend="primo">Primo</w>, <w id="C170047784" rend="quid">quid</w> &#x00AB;<w id="C170047785" rend="jesus">Jesus</w>&#x00BB;;
+</p>
+<p rend="indent"><lb n="S_LV_4_3"/><w id="C170047786" rend="secundo">secundo</w>, <w id="C170047787" rend="cum">cum</w> <w id="C170047788" rend="ipse">ipse</w> <w id="C170047789" rend="sit">sit</w> &#x00AB;<w id="C170047790" rend="veritas">veritas</w>&#x00BB;, <w id="C170047791" rend="exponamus">expona&#x00AC;mus</w>
+<lb n="S_LV_4_4"/><w id="C170047792" rend="evangelium">evangelium</w>, <w id="C170047793" rend="quo">quo</w> <w id="C170047794" rend="modo">modo</w> <w id="C170047795" rend="jesus">Jesus</w>, <w id="C170047796" rend="qui">qui</w> <w id="C170047797" rend="est">est</w>
+<lb n="S_LV_4_5"/><w id="C170047798" rend="veritas">veritas</w>, &#x00AB;<w id="C170047799" rend="intrat">intrat</w>&#x00BB; <w id="C170047800" rend="humanitatis">humanitatis</w> &#x00AB;<w id="C170047801" rend="castellum">castellum</w>&#x00BB; <w id="C170047802" rend="et">et</w>
+<lb n="S_LV_4_6"/><w id="C170047803" rend="recipitur">recipitur</w> <w id="C170047804" rend="in">in</w> <w id="C170047805" rend="domo">domo</w> <w id="C170047806" rend="seu">seu</w> <w id="C170047807" rend="anima">anima</w> <w id="C170047808" rend="marthae">Marthae</w> <w id="C170047809" rend="seu">seu</w> <w id="C170047810" rend="ratione">ra&#x00AC;tione</w>;
+<lb n="S_LV_4_7"/>
+</p>
+<p rend="indent"><lb n="S_LV_4_8"/><w id="C170047811" rend="et">et</w> <w id="C170047812" rend="quo">quo</w> <w id="C170047813" rend="modo">modo</w> <w id="C170047814" rend="in">in</w> <w id="C170047815" rend="ipsa">ipsa</w> <w id="C170047816" rend="domo">domo</w> <w id="C170047817" rend="rationis">rationis</w> <w id="C170047818" rend="est">est</w>
+<lb n="S_LV_4_9"/><w id="C170047819" rend="maria">Maria</w>, &#x00AB;<w id="C170047820" rend="illuminata">illuminata</w>&#x00BB;, &#x00AB;<w id="C170047821" rend="sedens">sedens</w> <w id="C170047822" rend="secus">secus</w> <w id="C170047823" rend="pedes">pedes</w>&#x00BB;
+<lb n="S_LV_4_10"/><w id="C170047824" rend="veritatis">veritatis</w> <w id="C170047825" rend="et">et</w> <w id="C170047826" rend="obiecti">obiecti</w>, <w id="C170047827" rend="ut">ut</w> &#x2039;<w id="C170047828" rend="sedendo">sedendo</w> <w id="C170047829" rend="prudentior">prudentior</w>
+<lb n="S_LV_4_11"/><w id="C170047830" rend="fiat">fiat</w>&#x203A;;
+</p>
+<p rend="indent"><lb n="S_LV_4_12"/><w id="C170047831" rend="et">et</w> <w id="C170047832" rend="quo">quo</w> <w id="C170047833" rend="modo">modo</w> <w id="C170047834" rend="audit">audit</w> <w id="C170047835" rend="sedendo">sedendo</w>; <w id="C170047836" rend="deinde">deinde</w>, <w id="C170047837" rend="quo">quo</w>
+<lb n="S_LV_4_13"/><w id="C170047838" rend="modo">modo</w> <w id="C170047839" rend="martha">Martha</w> <w id="C170047840" rend="seu">seu</w> <w id="C170047841" rend="ratio">ratio</w> &#x2039;<w id="C170047842" rend="turbatur">turbatur</w>&#x203A; <w id="C170047843" rend="in">in</w> &#x2039;<w id="C170047844" rend="sollicitatione">sollici&#x00AC;tatione</w>&#x203A;
+<lb n="S_LV_4_14"/><w id="C170047845" rend="etc">etc</w>,
+</p>
+<p rend="indent"><lb n="S_LV_4_15"/><w id="C170047846" rend="et">et</w> <w id="C170047847" rend="de">de</w> <w id="C170047848" rend="verbo">verbo</w>, <w id="C170047849" rend="quo">quo</w> <w id="C170047850" rend="modo">modo</w> &#x00AB;<w id="C170047851" rend="unum">unum</w> <w id="C170047852" rend="necessarium">necessa&#x00AC;rium</w>&#x00BB;,
+<lb n="S_LV_4_16"/><w id="C170047853" rend="usque">usque</w> <w id="C170047854" rend="ad">ad</w> <w id="C170047855" rend="finem">finem</w>.
+</p>
+<p rend="indent"><lb n="S_LV_4_17"/><w id="C170047856" rend="et">Et</w> <w id="C170047857" rend="post">post</w> <w id="C170047858" rend="hanc">hanc</w> <w id="C170047859" rend="expositionem">expositionem</w> <w id="C170047860" rend="dicamus">dicamus</w>, <w id="C170047861" rend="quo">quo</w>
+<lb n="S_LV_4_18"/><w id="C170047862" rend="modo">modo</w> <w id="C170047863" rend="maria">Maria</w>, <w id="C170047864" rend="dei">Dei</w> <w id="C170047865" rend="genitrix">genitrix</w>, &#x00AB;<w id="C170047866" rend="exaltata">exaltata</w> <w id="C170047867" rend="est">est</w> <w id="C170047868" rend="super">super</w>
+<lb n="S_LV_4_19"/><w id="C170047869" rend="choros">choros</w> <w id="C170047870" rend="angelorum">angelorum</w>&#x00BB; <w id="C170047871" rend="omnium">omnium</w>, <w id="C170047872" rend="scilicet">scilicet</w> <w id="C170047873" rend="intellectualium">intellec&#x00AC;tualium</w>
+<lb n="S_LV_4_20"/><w id="C170047874" rend="spirituum">spirituum</w>.
+</p>
+<p rend="indent"><lb n="S_LV_4_21"/><w id="C170047875" rend="nam">Nam</w> <w id="C170047876" rend="cum">cum</w> <w id="C170047877" rend="in">in</w> <w id="C170047878" rend="ipsius">ipsius</w> <w id="C170047879" rend="animam">animam</w> <w id="C170047880" rend="reciperetur">reciperetur</w>
+<lb n="S_LV_4_22"/><w id="C170047881" rend="verbum">Verbum</w> <w id="C170047882" rend="ipsum">ipsum</w>, <w id="C170047883" rend="ipsa">ipsa</w> <w id="C170047884" rend="omnia">omnia</w> &#x2039;<w id="C170047885" rend="verba">verba</w> <w id="C170047886" rend="eius">eius</w> <w id="C170047887" rend="audiebat">au&#x00AC;diebat</w>&#x203A;
+<lb n="S_LV_4_23"/><w id="C170047888" rend="et">et</w> <w id="C170047889" rend="observabat">observabat</w>, <w id="C170047890" rend="ita">ita</w> <w id="C170047891" rend="ut">ut</w> <w id="C170047892" rend="ipsa">ipsa</w> <w id="C170047893" rend="esset">esset</w> <w id="C170047894" rend="illuminatrix">illu&#x00AC;minatrix</w>
+<lb n="S_LV_4_24"/><w id="C170047895" rend="omnium">omnium</w> <w id="C170047896" rend="apostolorum">apostolorum</w> <w id="C170047897" rend="et">et</w> <w id="C170047898" rend="sanctorum">sanctorum</w>
+<lb n="S_LV_4_25"/><w id="C170047899" rend="doctorum">doctorum</w>, <w id="C170047900" rend="immo">immo</w> <w id="C170047901" rend="et">et</w> <w id="C170047902" rend="angelorum">angelorum</w>, <w id="C170047903" rend="ut">ut</w> <hi rend="spaced"><w id="C170047904" rend="albertus">Albertus</w></hi>
+<lb n="S_LV_4_26"/><w id="C170047905" rend="etc">etc</w>.
+<pb n="268"/>
+</p>
+<fw type="n" n="5" rend="+"/>
+<p rend="indent"><lb n="S_LV_5_1"/><w id="C170047906" rend="secundo">Secundo</w> &#x00AB;<w id="C170047907" rend="intravit">intravit</w>&#x00BB; <w id="C170047908" rend="jesus">Jesus</w>, <w id="C170047909" rend="id">id</w> <w id="C170047910" rend="est">est</w> &#x00AB;<w id="C170047911" rend="vita">vita</w>&#x00BB;, &#x00AB;<w id="C170047912" rend="in">in</w>
+<lb n="S_LV_5_2"/><w id="C170047913" rend="castellum">castellum</w>&#x00BB; <w id="C170047914" rend="humanitatis">humanitatis</w>, <w id="C170047915" rend="et">et</w> <w id="C170047916" rend="recepit">recepit</w> <w id="C170047917" rend="anima">anima</w> <w id="C170047918" rend="vitam">vi&#x00AC;tam</w>
+<lb n="S_LV_5_3"/><w id="C170047919" rend="a">a</w> <w id="C170047920" rend="vita">vita</w>. <w id="C170047921" rend="et">Et</w> <w id="C170047922" rend="haec">haec</w> <w id="C170047923" rend="vita">vita</w> <w id="C170047924" rend="ut">ut</w> <w id="C170047925" rend="marthae">Marthae</w> <w id="C170047926" rend="est">est</w> &#x00AB;<w id="C170047927" rend="circa">circa</w>
+<lb n="S_LV_5_4"/><w id="C170047928" rend="frequens">frequens</w> <w id="C170047929" rend="ministerium">ministerium</w>&#x00BB;: <w id="C170047930" rend="et">et</w> <w id="C170047931" rend="habet">habet</w> <w id="C170047932" rend="homo">homo</w> <w id="C170047933" rend="curas">curas</w>
+<lb n="S_LV_5_5"/><w id="C170047934" rend="et">et</w> <w id="C170047935" rend="turbationes">turbationes</w> <w id="C170047936" rend="multas">multas</w> <w id="C170047937" rend="pro">pro</w> <w id="C170047938" rend="vita">vita</w> <w id="C170047939" rend="sensibili">sensibili</w>.
+</p>
+<p rend="indent"><lb n="S_LV_5_6"/><w id="C170047940" rend="sed">Sed</w> <w id="C170047941" rend="in">in</w> <w id="C170047942" rend="ipsa">ipsa</w> <w id="C170047943" rend="domo">domo</w> <w id="C170047944" rend="animae">animae</w>, <w id="C170047945" rend="ubi">ubi</w> <w id="C170047946" rend="est">est</w> <w id="C170047947" rend="vita">vita</w>, <w id="C170047948" rend="est">est</w>
+<lb n="S_LV_5_7"/><w id="C170047949" rend="maria">Maria</w> <w id="C170047950" rend="vacans">vacans</w> <w id="C170047951" rend="circa">circa</w> <w id="C170047952" rend="vitam">vitam</w> <w id="C170047953" rend="verbi">Verbi</w>, <w id="C170047954" rend="ut">ut</w> <w id="C170047955" rend="de">de</w> <w id="C170047956" rend="verbo">Verbo</w>
+<lb n="S_LV_5_8"/><w id="C170047957" rend="vitae">vitae</w> <w id="C170047958" rend="unico">unico</w> <w id="C170047959" rend="vivat">vivat</w> <w id="C170047960" rend="etc">etc</w>.
+</p>
+<p rend="indent"><lb n="S_LV_5_9"/><w id="C170047961" rend="et">Et</w> <w id="C170047962" rend="quo">quo</w> <w id="C170047963" rend="modo">modo</w> &#x00AB;<w id="C170047964" rend="exaltata">exaltata</w> <w id="C170047965" rend="est">est</w> <w id="C170047966" rend="sancta">sancta</w> <w id="C170047967" rend="dei">Dei</w> <w id="C170047968" rend="genitrix">ge&#x00AC;nitrix</w>&#x00BB;
+<lb n="S_LV_5_10"/><w id="C170047969" rend="in">in</w> <w id="C170047970" rend="adeptione">adeptione</w> <w id="C170047971" rend="vitae">vitae</w> &#x00AB;<w id="C170047972" rend="super">super</w> <w id="C170047973" rend="choros">choros</w>&#x00BB; <w id="C170047974" rend="etc">etc</w>.
+</p>
+<fw type="n" n="6" rend="+"/>
+<p rend="indent"><lb n="S_LV_6_1"/><w id="C170047975" rend="tertio">Tertio</w>, <w id="C170047976" rend="quo">quo</w> <w id="C170047977" rend="modo">modo</w> &#x00AB;<w id="C170047978" rend="intravit">intravit</w> <w id="C170047979" rend="jesus">Jesus</w> <w id="C170047980" rend="in">in</w> <w id="C170047981" rend="quoddam">quod&#x00AC;dam</w>
+<lb n="S_LV_6_2"/><w id="C170047982" rend="castellum">castellum</w>&#x00BB; <w id="C170047983" rend="etc">etc</w>. <w id="C170047984" rend="ut">ut</w> &#x00AB;<w id="C170047985" rend="via">via</w>&#x00BB;, <w id="C170047986" rend="scilicet">scilicet</w> <w id="C170047987" rend="ut">ut</w> <w id="C170047988" rend="dans">dans</w>
+<lb n="S_LV_6_3"/><w id="C170047989" rend="ordinem">ordinem</w>, <w id="C170047990" rend="modum">modum</w> <w id="C170047991" rend="seu">seu</w> <w id="C170047992" rend="formam">formam</w>, <w id="C170047993" rend="et">et</w> <w id="C170047994" rend="ut">ut</w> <w id="C170047995" rend="caritas">caritas</w>.
+</p>
+<p rend="indent"><lb n="S_LV_6_4"/><w id="C170047996" rend="et">Et</w> <w id="C170047997" rend="haec">haec</w> <w id="C170047998" rend="caritas">caritas</w>, <w id="C170047999" rend="quae">quae</w> <w id="C170048000" rend="sic">sic</w> <w id="C170048001" rend="in">in</w> <w id="C170048002" rend="cordibus">cordibus</w> <w id="C170048003" rend="nostris">nos&#x00AC;tris</w>
+<lb n="S_LV_6_5"/><w id="C170048004" rend="seminatur">seminatur</w> <w id="C170048005" rend="per">per</w> <w id="C170048006" rend="spiritum">spiritum</w> <w id="C170048007" rend="jesu">Jesu</w>, <w id="C170048008" rend="recipitur">recipitur</w> <w id="C170048009" rend="in">in</w>
+<lb n="S_LV_6_6"/><w id="C170048010" rend="anima">anima</w> <w id="C170048011" rend="marthae">Marthae</w> <w id="C170048012" rend="operando">operando</w> <w id="C170048013" rend="opera">opera</w> <w id="C170048014" rend="caritatis">caritatis</w> <w id="C170048015" rend="et">et</w> <w id="C170048016" rend="in">in</w>
+<lb n="S_LV_6_7"/>&#x003C;<w id="C170048017" rend="anima">anima</w>&#x003E; <w id="C170048018" rend="mariae">Mariae</w> <w id="C170048019" rend="opera">opera</w> <w id="C170048020" rend="contemplationis">contemplationis</w> <w id="C170048021" rend="etc">etc</w>.
+</p>
+<p rend="indent"><lb n="S_LV_6_8"/><w id="C170048022" rend="sed">Sed</w> <w id="C170048023" rend="maria">Maria</w> &#x00AB;<w id="C170048024" rend="exaltata">exaltata</w> <w id="C170048025" rend="est">est</w>&#x00BB; <w id="C170048026" rend="etc">etc</w>. <w id="C170048027" rend="nam">Nam</w> <w id="C170048028" rend="cum">cum</w>
+<lb n="S_LV_6_9"/><w id="C170048029" rend="jesus">Jesus</w> <w id="C170048030" rend="descenderet">descenderet</w> <w id="C170048031" rend="in">in</w> <w id="C170048032" rend="castellum">castellum</w> <w id="C170048033" rend="humanitatis">humanitatis</w>,
+<lb n="S_LV_6_10"/><w id="C170048034" rend="ipsa">ipsa</w> <w id="C170048035" rend="ut">ut</w> &#x2039;<w id="C170048036" rend="martha">Martha</w> <w id="C170048037" rend="ipsum">ipsum</w> <w id="C170048038" rend="recepit">recepit</w> <w id="C170048039" rend="in">in</w> <w id="C170048040" rend="domum">domum</w>
+<lb n="S_LV_6_11"/><w id="C170048041" rend="suam">suam</w>&#x203A; <w id="C170048042" rend="et">et</w> <w id="C170048043" rend="ut">ut</w> &#x2039;<w id="C170048044" rend="maria">Maria</w> <w id="C170048045" rend="sedebat">sedebat</w>&#x203A; <w id="C170048046" rend="etc">etc</w>.
+</p>
+<fw type="n" n="7" rend="+"/>
+<p rend="indent"><lb n="S_LV_7_1"/><fw type="folio">76v</fw> &#x00AB;<w id="C170048047" rend="maria">Maria</w> <w id="C170048048" rend="optimam">optimam</w> <w id="C170048049" rend="partem">partem</w> <w id="C170048050" rend="elegit">elegit</w>, <w id="C170048051" rend="quae">quae</w> <w id="C170048052" rend="non">non</w>
+<lb n="S_LV_7_2"/><w id="C170048053" rend="auferetur">auferetur</w> <w id="C170048054" rend="ab">ab</w> <w id="C170048055" rend="ea">ea</w>&#x00BB;.
+</p>
+<p rend="indent"><lb n="S_LV_7_3"/><w id="C170048056" rend="hic">Hic</w> <w id="C170048057" rend="potest">potest</w> <w id="C170048058" rend="notari">notari</w>, <w id="C170048059" rend="quo">quo</w> <w id="C170048060" rend="modo">modo</w> <w id="C170048061" rend="vita">vita</w> <w id="C170048062" rend="contemplativa">contem&#x00AC;plativa</w>
+<lb n="S_LV_7_4"/><w id="C170048063" rend="hic">hic</w> <w id="C170048064" rend="inchoatur">inchoatur</w> <w id="C170048065" rend="per">per</w> <w id="C170048066" rend="electionem">electionem</w> <w id="C170048067" rend="et">et</w> <w id="C170048068" rend="in">in</w> <w id="C170048069" rend="futura">fu&#x00AC;tura</w>
+<lb n="S_LV_7_5"/><w id="C170048070" rend="vita">vita</w> <w id="C170048071" rend="continuatur">continuatur</w> <w id="C170048072" rend="aeternaliter">aeternaliter</w>, <w id="C170048073" rend="quia">quia</w> &#x00AB;<w id="C170048074" rend="non">non</w>
+<lb n="S_LV_7_6"/><w id="C170048075" rend="auferetur">auferetur</w> <w id="C170048076" rend="ab">ab</w> <w id="C170048077" rend="ea">ea</w>&#x00BB;.
+</p>
+<p rend="indent"><lb n="S_LV_7_7"/><w id="C170048078" rend="hic">Hic</w> <w id="C170048079" rend="etiam">etiam</w> <w id="C170048080" rend="potest">potest</w> <w id="C170048081" rend="notari">notari</w>, <w id="C170048082" rend="quod">quod</w> <w id="C170048083" rend="anima">anima</w> <w id="C170048084" rend="maria">Ma&#x00AC;ria</w>
+<lb n="S_LV_7_8"/><w id="C170048085" rend="ad">ad</w> &#x00AB;<w id="C170048086" rend="unum">unum</w>&#x00BB;, <w id="C170048087" rend="quod">quod</w> &#x00AB;<w id="C170048088" rend="est">est</w> <w id="C170048089" rend="necessarium">necessarium</w>&#x00BB;, <w id="C170048090" rend="se">se</w>
+<lb n="S_LV_7_9"/><w id="C170048091" rend="convertendo">convertendo</w> <w id="C170048092" rend="eligit">eligit</w> &#x2039;<w id="C170048093" rend="optimum">optimum</w>&#x203A;, <w id="C170048094" rend="ac">ac</w> <w id="C170048095" rend="quod">quod</w> <w id="C170048096" rend="ipsa">ipsa</w>
+<lb n="S_LV_7_10"/><w id="C170048097" rend="sic">sic</w> <w id="C170048098" rend="eligens">eligens</w> <w id="C170048099" rend="stabiliter">stabiliter</w> <w id="C170048100" rend="in">in</w> <w id="C170048101" rend="aeternitate">aeternitate</w> &#x003C;<w id="C170048102" rend="confirmata">confir&#x00AC;mata</w>
+<lb n="S_LV_7_11"/><w id="C170048103" rend="est">est</w>&#x003E;, <w id="C170048104" rend="sicut">sicut</w> <w id="C170048105" rend="angeli">angeli</w>, <w id="C170048106" rend="qui">qui</w> <w id="C170048107" rend="recte">recte</w> <w id="C170048108" rend="elegerunt">elegerunt</w>,
+<lb n="S_LV_7_12"/><w id="C170048109" rend="confirmati">confirmati</w> <w id="C170048110" rend="sunt">sunt</w> <w id="C170048111" rend="sua">sua</w> <w id="C170048112" rend="eiectione">eiectione</w>.
+</p>
+<p rend="indent"><lb n="S_LV_7_13"/><w id="C170048113" rend="est">Est</w> <w id="C170048114" rend="etiam">etiam</w> <w id="C170048115" rend="advertendum">advertendum</w>, <w id="C170048116" rend="quo">quo</w> <w id="C170048117" rend="modo">modo</w> <w id="C170048118" rend="hic">hic</w>
+<lb n="S_LV_7_14"/><w id="C170048119" rend="docemur">docemur</w>, <w id="C170048120" rend="quo">quo</w> <w id="C170048121" rend="modo">modo</w> <w id="C170048122" rend="anima">anima</w> <w id="C170048123" rend="illa">illa</w>, <w id="C170048124" rend="quae">quae</w> &#x2039;<w id="C170048125" rend="optimam">opti&#x00AC;mam</w>
+<lb n="S_LV_7_15"/><w id="C170048126" rend="partem">partem</w> <w id="C170048127" rend="eligit">eligit</w>&#x203A;, <w id="C170048128" rend="intrat">intrat</w> <w id="C170048129" rend="in">in</w> <w id="C170048130" rend="immortalitatem">immortalita&#x00AC;tem</w>,
+<lb n="S_LV_7_15"/>
+<lb n="S_LV_7_16"/>&#x00AB;<w id="C170048131" rend="quae">quae</w> <w id="C170048132" rend="non">non</w> <w id="C170048133" rend="auferetur">auferetur</w> <w id="C170048134" rend="ab">ab</w> <w id="C170048135" rend="ea">ea</w>&#x00BB;. <w id="C170048136" rend="unde">Unde</w> <w id="C170048137" rend="alia">alia</w> <w id="C170048138" rend="est">est</w>
+<lb n="S_LV_7_17"/><w id="C170048139" rend="incorruptibilitas">incorruptibilitas</w>, <w id="C170048140" rend="alia">alia</w> <w id="C170048141" rend="immortalitas">immortalitas</w>.
+</p>
+<p rend="indent"><lb n="S_LV_7_18"/><w id="C170048142" rend="spiritus">Spiritus</w>, <w id="C170048143" rend="qui">qui</w> <w id="C170048144" rend="eligit">eligit</w> <w id="C170048145" rend="optimam">optimam</w> <w id="C170048146" rend="partem">partem</w>, <w id="C170048147" rend="ille">ille</w>
+<lb n="S_LV_7_19"/><w id="C170048148" rend="eligit">eligit</w> <w id="C170048149" rend="vivere">vivere</w> <w id="C170048150" rend="vita">vita</w> <w id="C170048151" rend="intellectuali">intellectuali</w>, <w id="C170048152" rend="in">in</w> <w id="C170048153" rend="quam">quam</w> <w id="C170048154" rend="transfertur">trans&#x00AC;fertur</w>,
+<lb n="S_LV_7_20"/><w id="C170048155" rend="ut">ut</w> <w id="C170048156" rend="sit">sit</w> <w id="C170048157" rend="in">in</w> <w id="C170048158" rend="uno">uno</w> <w id="C170048159" rend="necessario">necessario</w>, <w id="C170048160" rend="quod">quod</w> <w id="C170048161" rend="est">est</w> <w id="C170048162" rend="ipsa">ipsa</w>
+<lb n="S_LV_7_21"/><w id="C170048163" rend="necessitas">necessitas</w> <w id="C170048164" rend="vitae">vitae</w>, <w id="C170048165" rend="quia">quia</w> <w id="C170048166" rend="non">non</w> <w id="C170048167" rend="potest">potest</w> <w id="C170048168" rend="non">non</w> <w id="C170048169" rend="esse">esse</w>
+<lb n="S_LV_7_22"/><w id="C170048170" rend="vita">vita</w> <w id="C170048171" rend="et">et</w> <w id="C170048172" rend="non">non</w> <w id="C170048173" rend="potest">potest</w> <w id="C170048174" rend="auferri">auferri</w> <w id="C170048175" rend="vita">vita</w> <w id="C170048176" rend="sic">sic</w> <w id="C170048177" rend="electa">electa</w> <w id="C170048178" rend="a">a</w>
+<lb n="S_LV_7_23"/><w id="C170048179" rend="spiritu">spiritu</w>.
+</p>
+<p rend="indent"><lb n="S_LV_7_24"/><w id="C170048180" rend="sed">Sed</w> <w id="C170048181" rend="spiritus">spiritus</w>, <w id="C170048182" rend="qui">qui</w> <w id="C170048183" rend="non">non</w> <w id="C170048184" rend="eligit">eligit</w> <w id="C170048185" rend="optimum">optimum</w>, <w id="C170048186" rend="sed">sed</w>
+<lb n="S_LV_7_25"/><w id="C170048187" rend="id">id</w>, <w id="C170048188" rend="quod">quod</w> <w id="C170048189" rend="participat">participat</w> <w id="C170048190" rend="de">de</w> <w id="C170048191" rend="bono">bono</w>, <w id="C170048192" rend="cum">cum</w> <w id="C170048193" rend="hoc">hoc</w> <w id="C170048194" rend="bonum">bonum</w>
+<lb n="S_LV_7_26"/><w id="C170048195" rend="sic">sic</w> <w id="C170048196" rend="electum">electum</w> <w id="C170048197" rend="non">non</w> <w id="C170048198" rend="sit">sit</w> <w id="C170048199" rend="ipsum">ipsum</w> &#x00AB;<w id="C170048200" rend="unum">unum</w> <w id="C170048201" rend="necessarium">necessa&#x00AC;rium</w>&#x00BB;,
+<lb n="S_LV_7_27"/><w id="C170048202" rend="hinc">hinc</w> <w id="C170048203" rend="deficiet">deficiet</w> <w id="C170048204" rend="et">et</w> &#x2039;<w id="C170048205" rend="id">id</w> <w id="C170048206" rend="bonum">bonum</w>&#x203A; <w id="C170048207" rend="auferetur">auferetur</w>
+<lb n="S_LV_7_28"/><w id="C170048208" rend="ab">ab</w> <w id="C170048209" rend="eo">eo</w>.
+</p>
+<p rend="indent"><lb n="S_LV_7_29"/><w id="C170048210" rend="manet">Manet</w> <w id="C170048211" rend="tamen">tamen</w> <w id="C170048212" rend="incorruptibiliter">incorruptibiliter</w> <w id="C170048213" rend="spiritus">spiritus</w>, <w id="C170048214" rend="a">a</w>
+<lb n="S_LV_7_30"/><w id="C170048215" rend="quo">quo</w> <w id="C170048216" rend="aufertur">aufertur</w>, <w id="C170048217" rend="quia">quia</w> <w id="C170048218" rend="dicit">dicit</w> <w id="C170048219" rend="textus">textus</w>: &#x00AB;<w id="C170048220" rend="auferetur">auferetur</w> <w id="C170048221" rend="ab">ab</w>
+<lb n="S_LV_7_31"/><w id="C170048222" rend="ea">ea</w>&#x00BB;, <w id="C170048223" rend="quasi">quasi</w> <w id="C170048224" rend="ablatio">ablatio</w> <w id="C170048225" rend="non">non</w> <w id="C170048226" rend="annihilet">annihilet</w>, <w id="C170048227" rend="cum">cum</w> <w id="C170048228" rend="dicat">dicat</w> <w id="C170048229" rend="ab">ab</w>
+<lb n="S_LV_7_32"/><w id="C170048230" rend="ea">ea</w> <w id="C170048231" rend="quasi">quasi</w> <w id="C170048232" rend="post">post</w> <w id="C170048233" rend="ablationem">ablationem</w> <w id="C170048234" rend="persistat">persistat</w>.
+<pb n="269"/>
+</p>
+<p rend="indent"><lb n="S_LV_7_33"/><w id="C170048235" rend="et">Et</w> <w id="C170048236" rend="ita">ita</w> <w id="C170048237" rend="alia">alia</w> <w id="C170048238" rend="est">est</w> &#x2039;<w id="C170048239" rend="immortalitas">immortalitas</w>&#x203A;, <w id="C170048240" rend="quam">quam</w> &#x2039;<w id="C170048241" rend="solus">solus</w>&#x203A;
+<lb n="S_LV_7_34"/><w id="C170048242" rend="deus">Deus</w>, <w id="C170048243" rend="qui">qui</w> <w id="C170048244" rend="est">est</w> <w id="C170048245" rend="ipsum">ipsum</w> &#x00AB;<w id="C170048246" rend="unum">unum</w> <w id="C170048247" rend="necessariam">necessariam</w>&#x00BB;,
+<lb n="S_LV_7_35"/>&#x2039;<w id="C170048248" rend="inhabitat">inhabitat</w>&#x203A;, <w id="C170048249" rend="et">et</w> <w id="C170048250" rend="alia">alia</w> <w id="C170048251" rend="incorruptibilitas">incorruptibilitas</w>, <w id="C170048252" rend="quae">quae</w> <w id="C170048253" rend="est">est</w>
+<lb n="S_LV_7_36"/><w id="C170048254" rend="absolutio">absolutio</w> <w id="C170048255" rend="a">a</w> <w id="C170048256" rend="tempore">tempore</w> <w id="C170048257" rend="etc">etc</w>.
+</p>
+<fw type="n" n="8" rend="+"/>
+<p rend="indent"><lb n="S_LV_8_1"/>&#x00AB;<w id="C170048258" rend="intravit">Intravit</w> <w id="C170048259" rend="jesus">Jesus</w>&#x00BB; <w id="C170048260" rend="etc">etc</w>.
+</p>
+<p rend="indent"><lb n="S_LV_8_2"/><w id="C170048261" rend="primo">Primo</w> <w id="C170048262" rend="considera">considera</w>, <w id="C170048263" rend="quo">quo</w> <w id="C170048264" rend="modo">modo</w> <w id="C170048265" rend="jesu">Jesu</w> <w id="C170048266" rend="intrante">intrante</w>
+<lb n="S_LV_8_3"/><w id="C170048267" rend="in">in</w> <w id="C170048268" rend="quoddam">quoddam</w> <w id="C170048269" rend="castellum">castellum</w> <w id="C170048270" rend="recipitur">recipitur</w> <w id="C170048271" rend="a">a</w> <w id="C170048272" rend="martha">Martha</w>.
+<lb n="S_LV_8_4"/><w id="C170048273" rend="exponitur">Exponitur</w> <w id="C170048274" rend="hoc">hoc</w>, <w id="C170048275" rend="quod">quod</w> <w id="C170048276" rend="introire">introire</w> <w id="C170048277" rend="coincidit">coincidit</w> <w id="C170048278" rend="cum">cum</w>
+<lb n="S_LV_8_5"/><w id="C170048279" rend="recipere">recipere</w>.
+</p>
+<p rend="indent"><lb n="S_LV_8_6"/><w id="C170048280" rend="martha">Martha</w> <w id="C170048281" rend="est">est</w> <w id="C170048282" rend="ratio">ratio</w>, <w id="C170048283" rend="maria">Maria</w> <w id="C170048284" rend="intellectus">intellectus</w>, <w id="C170048285" rend="jesus">Jesus</w>
+<lb n="S_LV_8_7"/>&#x00AB;<w id="C170048286" rend="veritas">veritas</w>&#x00BB;.
+</p>
+<p rend="indent"><lb n="S_LV_8_8"/><w id="C170048287" rend="quando">Quando</w> <w id="C170048288" rend="veritas">veritas</w> <w id="C170048289" rend="intrat">intrat</w> &#x00AB;<w id="C170048290" rend="in">in</w> <w id="C170048291" rend="castellum">castellum</w>&#x00BB;, <w id="C170048292" rend="id">id</w>
+<lb n="S_LV_8_9"/><w id="C170048293" rend="est">est</w> <w id="C170048294" rend="hominem">hominem</w> <w id="C170048295" rend="perfectum">perfectum</w>, <w id="C170048296" rend="recipitur">recipitur</w> <w id="C170048297" rend="a">a</w> <w id="C170048298" rend="ratione">ratione</w>,
+<lb n="S_LV_8_10"/><w id="C170048299" rend="quae">quae</w> &#x2039;<w id="C170048300" rend="turbatur">turbatur</w> <w id="C170048301" rend="in">in</w> <w id="C170048302" rend="plurimis">plurimis</w>&#x203A; <w id="C170048303" rend="et">et</w> <w id="C170048304" rend="circa">circa</w> <w id="C170048305" rend="multa">multa</w> <w id="C170048306" rend="turbatur">tur&#x00AC;batur</w>.
+<lb n="S_LV_8_11"/><w id="C170048307" rend="sed">Sed</w> <w id="C170048308" rend="intellectus">intellectus</w> &#x2039;<w id="C170048309" rend="sedet">sedet</w> <w id="C170048310" rend="secus">secus</w> <w id="C170048311" rend="pedes">pedes</w>&#x203A; <w id="C170048312" rend="veritatis">veri&#x00AC;tatis</w>,
+<lb n="S_LV_8_12"/><w id="C170048313" rend="quia">quia</w> <w id="C170048314" rend="eius">eius</w> <w id="C170048315" rend="obiectum">obiectum</w> <w id="C170048316" rend="est">est</w> <w id="C170048317" rend="veritas">veritas</w>, <w id="C170048318" rend="et">et</w> <w id="C170048319" rend="audit">audit</w>,
+<lb n="S_LV_8_13"/><w id="C170048320" rend="quid">quid</w> <w id="C170048321" rend="in">in</w> <w id="C170048322" rend="eo">eo</w> <w id="C170048323" rend="loquatur">loquatur</w> <w id="C170048324" rend="veritas">veritas</w>, <w id="C170048325" rend="dominus">Dominus</w> <w id="C170048326" rend="suus">suus</w>.
+</p>
+<p rend="indent"><lb n="S_LV_8_14"/><w id="C170048327" rend="turbatur">Turbatur</w> <w id="C170048328" rend="ratio">ratio</w> <w id="C170048329" rend="et">et</w> <w id="C170048330" rend="ex">ex</w> <w id="C170048331" rend="eo">eo</w>, <w id="C170048332" rend="quia">quia</w> <w id="C170048333" rend="non">non</w> <w id="C170048334" rend="potest">potest</w>
+<lb n="S_LV_8_15"/><w id="C170048335" rend="omnia">omnia</w> <w id="C170048336" rend="attingere">attingere</w> <w id="C170048337" rend="ratio">ratio</w>. <w id="C170048338" rend="et">Et</w> <w id="C170048339" rend="dicit">dicit</w> <w id="C170048340" rend="veritati">veritati</w>, <w id="C170048341" rend="cui">cui</w>
+<lb n="S_LV_8_16"/><w id="C170048342" rend="ministrat">ministrat</w>, <w id="C170048343" rend="cur">cur</w> <w id="C170048344" rend="eam">eam</w> &#x2039;<w id="C170048345" rend="sinat">sinat</w> <w id="C170048346" rend="solam">solam</w> <w id="C170048347" rend="ministrare">ministrare</w>&#x203A; <w id="C170048348" rend="et">et</w>
+<lb n="S_LV_8_17"/><w id="C170048349" rend="non">non</w> <w id="C170048350" rend="adhibeat">adhibeat</w> <w id="C170048351" rend="intellectum">intellectum</w> <w id="C170048352" rend="etc">etc</w>.
+</p>
+<p rend="indent"><lb n="S_LV_8_18"/><w id="C170048353" rend="et">Et</w> <w id="C170048354" rend="respondet">respondet</w> <w id="C170048355" rend="veritas">veritas</w>, <w id="C170048356" rend="quo">quo</w> <w id="C170048357" rend="modo">modo</w> <w id="C170048358" rend="sollicitudo">sollici&#x00AC;tudo</w>
+<lb n="S_LV_8_19"/>&#x2308;<w id="C170048359" rend="sua">sua</w>&#x2309; <w id="C170048360" rend="turbationem">turbationem</w> <w id="C170048361" rend="inferat">inferat</w>, <w id="C170048362" rend="et">et</w> <w id="C170048363" rend="quod">quod</w> <w id="C170048364" rend="solum">so&#x00AC;lum</w>
+<lb n="S_LV_8_20"/>&#x00AB;<w id="C170048365" rend="unum">unum</w> <w id="C170048366" rend="est">est</w> <w id="C170048367" rend="necessarium">necessarium</w>&#x00BB; <w id="C170048368" rend="et">et</w> <w id="C170048369" rend="quod">quod</w> <w id="C170048370" rend="intellectus">intel&#x00AC;lectus</w>,
+<lb n="S_LV_8_21"/><w id="C170048371" rend="qui">qui</w> <w id="C170048372" rend="deposuit">deposuit</w> <w id="C170048373" rend="sollicitudinem">sollicitudinem</w> <w id="C170048374" rend="in">in</w> <w id="C170048375" rend="multis">multis</w>
+<lb n="S_LV_8_22"/><w id="C170048376" rend="et">et</w> <w id="C170048377" rend="elegit">elegit</w> <w id="C170048378" rend="unum">unum</w>, &#x00AB;<w id="C170048379" rend="optimam">optimam</w> <w id="C170048380" rend="partem">partem</w> <w id="C170048381" rend="elegit">elegit</w>,
+<lb n="S_LV_8_23"/><w id="C170048382" rend="quae">quae</w> <w id="C170048383" rend="non">non</w> <w id="C170048384" rend="auferetur">auferetur</w>&#x00BB; <w id="C170048385" rend="etc">etc</w>.
+</p>
+<fw type="n" n="9" rend="+"/>
+<p rend="indent"><lb n="S_LV_9_1"/><w id="C170048386" rend="item">Item</w> <w id="C170048387" rend="jesus">Jesus</w> <w id="C170048388" rend="est">est</w> &#x00AB;<w id="C170048389" rend="vita">vita</w>&#x00BB;; <w id="C170048390" rend="quo">quo</w> <w id="C170048391" rend="modo">modo</w> <w id="C170048392" rend="evangelium">evange&#x00AC;lium</w>
+<lb n="S_LV_9_2"/><w id="C170048393" rend="exponitur">exponitur</w> <w id="C170048394" rend="secundum">secundum</w> <w id="C170048395" rend="hoc">hoc</w>.
+</p>
+<p rend="indent"><lb n="S_LV_9_3"/><w id="C170048396" rend="nam">Nam</w> <w id="C170048397" rend="vita">vita</w> <w id="C170048398" rend="rationalis">rationalis</w> <w id="C170048399" rend="descendit">descendit</w> <w id="C170048400" rend="in">in</w> <w id="C170048401" rend="castellum">castellum</w>
+<lb n="S_LV_9_4"/><w id="C170048402" rend="et">et</w> <w id="C170048403" rend="recipitur">recipitur</w> <w id="C170048404" rend="per">per</w> <w id="C170048405" rend="animam">animam</w> <w id="C170048406" rend="et">et</w> <w id="C170048407" rend="animantem">animantem</w> <w id="C170048408" rend="corpus">corpus</w>
+<lb n="S_LV_9_5"/><w id="C170048409" rend="et">et</w> &#x2039;<w id="C170048410" rend="sollicitam">sollicitam</w>&#x203A; <w id="C170048411" rend="etc">etc</w>., <w id="C170048412" rend="et">et</w> <w id="C170048413" rend="sedentem">sedentem</w>, <w id="C170048414" rend="audientem">audientem</w>
+<lb n="S_LV_9_6"/><w id="C170048415" rend="etc">etc</w>.
+</p>
+<p rend="indent"><lb n="S_LV_9_7"/><w id="C170048416" rend="quoad">Quoad</w> <w id="C170048417" rend="hoc">hoc</w>, <w id="C170048418" rend="quod">quod</w> <w id="C170048419" rend="anima">anima</w> <w id="C170048420" rend="recipit">recipit</w> <w id="C170048421" rend="a">a</w> <w id="C170048422" rend="vita">vita</w> <w id="C170048423" rend="vitam">vi&#x00AC;tam</w>,
+<lb n="S_LV_9_8"/><w id="C170048424" rend="per">per</w> <w id="C170048425" rend="quam">quam</w> <w id="C170048426" rend="vivificat">vivificat</w> <w id="C170048427" rend="corpus">corpus</w>, <w id="C170048428" rend="tunc">tunc</w> <w id="C170048429" rend="est">est</w>
+<lb n="S_LV_9_9"/>&#x2039;<w id="C170048430" rend="martha">Martha</w>&#x203A; <w id="C170048431" rend="multum">multum</w> &#x2039;<w id="C170048432" rend="sollicita">sollicita</w>&#x203A;, <w id="C170048433" rend="ut">ut</w> <w id="C170048434" rend="vitae">vitae</w> <w id="C170048435" rend="ministret">minis&#x00AC;tret</w>.
+<lb n="S_LV_9_10"/><w id="C170048436" rend="nam">Nam</w> <w id="C170048437" rend="ordinat">ordinat</w> <w id="C170048438" rend="omnes">omnes</w> <w id="C170048439" rend="sensus">sensus</w> <w id="C170048440" rend="et">et</w> <w id="C170048441" rend="omnes">omnes</w>
+<lb n="S_LV_9_11"/><w id="C170048442" rend="labores">labores</w> <w id="C170048443" rend="ad">ad</w> <w id="C170048444" rend="vitam">vitam</w>: <w id="C170048445" rend="seminat">seminat</w>, <w id="C170048446" rend="colit">colit</w> <w id="C170048447" rend="terram">terram</w>, <w id="C170048448" rend="aedificat">ae&#x00AC;dificat</w>,
+<lb n="S_LV_9_12"/><w id="C170048449" rend="plantat">plantat</w> <w id="C170048450" rend="etc">etc</w>. <w id="C170048451" rend="et">Et</w> <w id="C170048452" rend="sollicite">sollicite</w> <w id="C170048453" rend="omnia">omnia</w> <w id="C170048454" rend="agit">agit</w>
+<lb n="S_LV_9_13"/><w id="C170048455" rend="propter">propter</w> <w id="C170048456" rend="vitam">vitam</w>.
+</p>
+<p rend="indent"><lb n="S_LV_9_14"/><w id="C170048457" rend="sed">Sed</w> <w id="C170048458" rend="anima">anima</w> <w id="C170048459" rend="habens">habens</w> <w id="C170048460" rend="vitam">vitam</w> <w id="C170048461" rend="contemplativam">contemplativam</w>,
+<lb n="S_LV_9_15"/><w id="C170048462" rend="ad">ad</w> &#x00AB;<w id="C170048463" rend="unum">unum</w> <w id="C170048464" rend="necessarium">necessarium</w>&#x00BB; <w id="C170048465" rend="se">se</w> <w id="C170048466" rend="convertit">convertit</w>, <w id="C170048467" rend="quia">quia</w>
+<lb n="S_LV_9_16"/>&#x00AB;<w id="C170048468" rend="non">non</w> <w id="C170048469" rend="in">in</w> <w id="C170048470" rend="solo">solo</w> <w id="C170048471" rend="pane">pane</w> <w id="C170048472" rend="vivit">vivit</w> <w id="C170048473" rend="homo">homo</w> <w id="C170048474" rend="sed">sed</w> <w id="C170048475" rend="in">in</w> <w id="C170048476" rend="omni">omni</w>
+<lb n="S_LV_9_17"/><w id="C170048477" rend="verbo">verbo</w>&#x00BB; <w id="C170048478" rend="etc">etc</w>; <w id="C170048479" rend="convertit">convertit</w> <w id="C170048480" rend="se">se</w> <w id="C170048481" rend="ad">ad</w> <w id="C170048482" rend="hoc">hoc</w> <w id="C170048483" rend="verbum">verbum</w> <w id="C170048484" rend="et">et</w>
+<lb n="S_LV_9_18"/><w id="C170048485" rend="eligit">eligit</w> <w id="C170048486" rend="ibi">ibi</w> <w id="C170048487" rend="vivere">vivere</w>; <w id="C170048488" rend="unde">unde</w> <w id="C170048489" rend="est">est</w> <w id="C170048490" rend="vita">vita</w> <w id="C170048491" rend="eius">eius</w>, <w id="C170048492" rend="et">et</w> <w id="C170048493" rend="se">se</w> <w id="C170048494" rend="separat">se&#x00AC;parat</w>
+<lb n="S_LV_9_19"/><w id="C170048495" rend="abstractive">abstractive</w> <w id="C170048496" rend="a">a</w> <w id="C170048497" rend="multitudine">multitudine</w> <w id="C170048498" rend="etc">etc</w>.
+</p>
+<fw type="n" n="10" rend="+"/>
+<p rend="indent"><lb n="S_LV_10_1"/><w id="C170048499" rend="item">Item</w> <w id="C170048500" rend="jesus">Jesus</w> <w id="C170048501" rend="est">est</w> &#x00AB;<w id="C170048502" rend="via">via</w>&#x00BB;. <w id="C170048503" rend="intrat">Intrat</w> <w id="C170048504" rend="igitur">igitur</w> <w id="C170048505" rend="via">via</w> <w id="C170048506" rend="seu">seu</w>
+<lb n="S_LV_10_2"/><w id="C170048507" rend="ordo">ordo</w> <w id="C170048508" rend="in">in</w> <w id="C170048509" rend="castellum">castellum</w> <w id="C170048510" rend="seu">seu</w> <w id="C170048511" rend="hominem">hominem</w>, <w id="C170048512" rend="et">et</w> <w id="C170048513" rend="recipitur">recipitur</w>
+<lb n="S_LV_10_3"/><w id="C170048514" rend="vel">vel</w> <w id="C170048515" rend="active">active</w> <w id="C170048516" rend="vel">vel</w> <w id="C170048517" rend="contemplative">contemplative</w>. <w id="C170048518" rend="unde">Unde</w> <w id="C170048519" rend="ambulant">ambulant</w>
+<lb n="S_LV_10_4"/><w id="C170048520" rend="homines">homines</w>, <w id="C170048521" rend="qui">qui</w> <w id="C170048522" rend="jesum">Jesum</w> <w id="C170048523" rend="recipiunt">recipiunt</w>, <w id="C170048524" rend="aut">aut</w> <w id="C170048525" rend="via">via</w> <w id="C170048526" rend="marthae">Mar&#x00AC;thae</w>
+<lb n="S_LV_10_5"/><w id="C170048527" rend="aut">aut</w> <w id="C170048528" rend="via">via</w> <w id="C170048529" rend="mariae">Mariae</w>.
+</p>
+<fw type="n" n="11" rend="+"/>
+<p rend="indent"><lb n="S_LV_11_1"/><fw type="folio">77r</fw> <w id="C170048530" rend="castellum">Castellum</w> <w id="C170048531" rend="potest">potest</w> <w id="C170048532" rend="dici">dici</w> <w id="C170048533" rend="ecclesia">ecclesia</w>, <w id="C170048534" rend="et">et</w> <w id="C170048535" rend="secundum">secun&#x00AC;dum</w>
+<lb n="S_LV_11_2"/><w id="C170048536" rend="hoc">hoc</w> <w id="C170048537" rend="exponatur">exponatur</w> <w id="C170048538" rend="de">de</w> &#x003C;<w id="C170048539" rend="vita">vita</w>&#x003E; <w id="C170048540" rend="activa">activa</w> <w id="C170048541" rend="et">et</w>
+<lb n="S_LV_11_3"/><w id="C170048542" rend="contemplativa">contemplativa</w>.
+<pb n="270"/>
+</p>
+<p rend="indent"><lb n="S_LV_11_4"/><w id="C170048543" rend="dicit">Dicit</w> <w id="C170048544" rend="evangelium">evangelium</w>: &#x00AB;<w id="C170048545" rend="intravit">Intravit</w> <w id="C170048546" rend="jesus">Jesus</w>&#x00BB; <w id="C170048547" rend="etc">etc</w>.
+</p>
+<p rend="indent"><lb n="S_LV_11_5"/><w id="C170048548" rend="primo">Primo</w> <w id="C170048549" rend="sciamus">sciamus</w>, <w id="C170048550" rend="quid">quid</w> &#x00AB;<w id="C170048551" rend="jesus">Jesus</w>&#x00BB;. <w id="C170048552" rend="et">Et</w> <w id="C170048553" rend="ipse">ipse</w> <w id="C170048554" rend="de">de</w>
+<lb n="S_LV_11_6"/><w id="C170048555" rend="se">se</w> <w id="C170048556" rend="testimonium">testimonium</w> <w id="C170048557" rend="perhibet">perhibet</w>, <w id="C170048558" rend="quia">quia</w> <w id="C170048559" rend="ipse">ipse</w> <w id="C170048560" rend="est">est</w> &#x00AB;<w id="C170048561" rend="via">via</w>,
+<lb n="S_LV_11_7"/><w id="C170048562" rend="veritas">veritas</w> <w id="C170048563" rend="et">et</w> <w id="C170048564" rend="vita">vita</w>&#x00BB;.
+</p>
+<p rend="indent"><lb n="S_LV_11_8"/><w id="C170048565" rend="est">Est</w> <w id="C170048566" rend="via">via</w> <w id="C170048567" rend="sive">sive</w> <w id="C170048568" rend="modus">modus</w> <w id="C170048569" rend="aut">aut</w> <w id="C170048570" rend="ordo">ordo</w> <w id="C170048571" rend="ita">ita</w>, <w id="C170048572" rend="ut">ut</w> <w id="C170048573" rend="per">per</w>
+<lb n="S_LV_11_9"/><w id="C170048574" rend="ipsum">ipsum</w> <w id="C170048575" rend="viatores">viatores</w> <w id="C170048576" rend="ad">ad</w> <w id="C170048577" rend="patriam">patriam</w> <w id="C170048578" rend="necessario">necessario</w> <w id="C170048579" rend="incedant">ince&#x00AC;dant</w>,
+<lb n="S_LV_11_10"/><w id="C170048580" rend="quoniam">quoniam</w> <w id="C170048581" rend="per">per</w> <w id="C170048582" rend="hanc">hanc</w> <w id="C170048583" rend="viam">viam</w> <w id="C170048584" rend="sive">sive</w> <w id="C170048585" rend="ostium">ostium</w>
+<lb n="S_LV_11_11"/><w id="C170048586" rend="introitus">introitus</w> <w id="C170048587" rend="ad">ad</w> <w id="C170048588" rend="regnum">regnum</w> <w id="C170048589" rend="exsistit">exsistit</w>.
+</p>
+<p rend="indent"><lb n="S_LV_11_12"/><w id="C170048590" rend="humanitas">Humanitas</w> <w id="C170048591" rend="est">est</w> <w id="C170048592" rend="quoddam">quoddam</w> <w id="C170048593" rend="bene">bene</w> <w id="C170048594" rend="aedificatum">aedifica&#x00AC;tum</w>
+<lb n="S_LV_11_13"/><w id="C170048595" rend="castellum">castellum</w> <w id="C170048596" rend="contra">contra</w> <w id="C170048597" rend="adversarias">adversarias</w> <w id="C170048598" rend="virtutes">virtutes</w>
+<lb n="S_LV_11_14"/><w id="C170048599" rend="bene">bene</w> <w id="C170048600" rend="munitum">munitum</w>. <w id="C170048601" rend="in">In</w> <w id="C170048602" rend="speciem">speciem</w> <w id="C170048603" rend="igitur">igitur</w> <w id="C170048604" rend="humanitatis">humanita&#x00AC;tis</w>
+<lb n="S_LV_11_15"/><w id="C170048605" rend="intravit">intravit</w> <w id="C170048606" rend="jesus">Jesus</w> <w id="C170048607" rend="seu">seu</w> <w id="C170048608" rend="ratio">ratio</w> <w id="C170048609" rend="divina">divina</w>, <w id="C170048610" rend="ut">ut</w> <w id="C170048611" rend="esset">esset</w>
+<lb n="S_LV_11_16"/><w id="C170048612" rend="homini">homini</w> <w id="C170048613" rend="via">via</w> <w id="C170048614" rend="reditionis">reditionis</w> <w id="C170048615" rend="ad">ad</w> <w id="C170048616" rend="patriam">patriam</w>. <w id="C170048617" rend="et">Et</w> <w id="C170048618" rend="dum">dum</w> <w id="C170048619" rend="sic">sic</w>
+<lb n="S_LV_11_17"/><w id="C170048620" rend="ratio">ratio</w> <w id="C170048621" rend="in">in</w> <w id="C170048622" rend="hominem">hominem</w> <w id="C170048623" rend="intravit">intravit</w>, <w id="C170048624" rend="recepta">recepta</w> <w id="C170048625" rend="est">est</w> <w id="C170048626" rend="via">via</w> <w id="C170048627" rend="seu">seu</w>
+<lb n="S_LV_11_18"/><w id="C170048628" rend="ordo">ordo</w> <w id="C170048629" rend="ab">ab</w> <w id="C170048630" rend="anima">anima</w>, <w id="C170048631" rend="quae">quae</w> <w id="C170048632" rend="rationalis">rationalis</w> <w id="C170048633" rend="est">est</w> <w id="C170048634" rend="aut">aut</w> <w id="C170048635" rend="ut">ut</w>
+<lb n="S_LV_11_19"/><w id="C170048636" rend="martha">Martha</w> <w id="C170048637" rend="sollicita">sollicita</w> <w id="C170048638" rend="circa">circa</w> <w id="C170048639" rend="agenda">agenda</w> <w id="C170048640" rend="opera">opera</w> <w id="C170048641" rend="rationis">rationis</w>
+<lb n="S_LV_11_20"/><w id="C170048642" rend="aut">aut</w> <w id="C170048643" rend="ut">ut</w> <w id="C170048644" rend="maria">Maria</w> <w id="C170048645" rend="circa">circa</w> <w id="C170048646" rend="speculanda">speculanda</w>.
+</p>
+<p rend="indent"><lb n="S_LV_11_21"/><w id="C170048647" rend="dupliciter">Dupliciter</w> <w id="C170048648" rend="igitur">igitur</w> <w id="C170048649" rend="recipitur">recipitur</w> <w id="C170048650" rend="via">via</w> <w id="C170048651" rend="seu">seu</w> <w id="C170048652" rend="ordo">ordo</w> <w id="C170048653" rend="in">in</w>
+<lb n="S_LV_11_22"/><w id="C170048654" rend="castello">castello</w> <w id="C170048655" rend="humanitatis">humanitatis</w>, <w id="C170048656" rend="scilicet">scilicet</w> <w id="C170048657" rend="vel">vel</w> <w id="C170048658" rend="in">in</w> <w id="C170048659" rend="domo">domo</w> <w id="C170048660" rend="seu">seu</w>
+<lb n="S_LV_11_23"/><w id="C170048661" rend="homine">homine</w> <w id="C170048662" rend="uno">uno</w> <w id="C170048663" rend="active">active</w> <w id="C170048664" rend="vel">vel</w> <w id="C170048665" rend="contemplative">contemplative</w>.
+</p>
+<p rend="indent"><lb n="S_LV_11_24"/><w id="C170048666" rend="et">Et</w> <w id="C170048667" rend="dum">dum</w> <w id="C170048668" rend="recipitur">recipitur</w> <w id="C170048669" rend="active">active</w>, <w id="C170048670" rend="tunc">tunc</w> <w id="C170048671" rend="recipitur">recipitur</w>
+<lb n="S_LV_11_25"/><w id="C170048672" rend="cum">cum</w> <w id="C170048673" rend="sollicitudine">sollicitudine</w> <w id="C170048674" rend="et">et</w> <w id="C170048675" rend="turbatione">turbatione</w> <w id="C170048676" rend="in">in</w> <w id="C170048677" rend="plurimis">plurimis</w>.
+<lb n="S_LV_11_26"/><w id="C170048678" rend="et">Et</w> <w id="C170048679" rend="dum">dum</w> <w id="C170048680" rend="recipitur">recipitur</w> <w id="C170048681" rend="contemplative">contemplative</w>, <w id="C170048682" rend="tunc">tunc</w> <w id="C170048683" rend="recipitur">reci&#x00AC;pitur</w>
+<lb n="S_LV_11_27"/><w id="C170048684" rend="per">per</w> <w id="C170048685" rend="aversionem">aversionem</w> <w id="C170048686" rend="a">a</w> <w id="C170048687" rend="multis">multis</w> <w id="C170048688" rend="et">et</w> <w id="C170048689" rend="conversione">conversione</w>
+<lb n="S_LV_11_28"/><w id="C170048690" rend="ad">ad</w> &#x00AB;<w id="C170048691" rend="unum">unum</w> <w id="C170048692" rend="necessarium">necessarium</w>&#x00BB;.
+</p>
+<p rend="indent"><lb n="S_LV_11_29"/><w id="C170048693" rend="et">Et</w> <w id="C170048694" rend="quoniam">quoniam</w> <w id="C170048695" rend="qui">qui</w> <w id="C170048696" rend="se">se</w> <w id="C170048697" rend="convertit">convertit</w> <w id="C170048698" rend="ad">ad</w> <w id="C170048699" rend="ministerium">ministe&#x00AC;rium</w>
+<lb n="S_LV_11_30"/><w id="C170048700" rend="sollicitudinis">sollicitudinis</w>, <w id="C170048701" rend="ille">ille</w> <w id="C170048702" rend="non">non</w> <w id="C170048703" rend="eligit">eligit</w> <w id="C170048704" rend="fixum">fixum</w>, <w id="C170048705" rend="sed">sed</w>
+<lb n="S_LV_11_31"/><w id="C170048706" rend="turbativum">turbativum</w> <w id="C170048707" rend="et">et</w> <w id="C170048708" rend="inquietum">inquietum</w>, <w id="C170048709" rend="hinc">hinc</w> &#x00AB;<w id="C170048710" rend="auferetur">auferetur</w> <w id="C170048711" rend="ab">ab</w>
+<lb n="S_LV_11_32"/><w id="C170048712" rend="eo">eo</w>&#x00BB;, <w id="C170048713" rend="quia">quia</w> <w id="C170048714" rend="optimum">optimum</w> <w id="C170048715" rend="et">et</w> <w id="C170048716" rend="eligibilius">eligibilius</w> <w id="C170048717" rend="non">non</w> <w id="C170048718" rend="elegit">elegit</w>,
+<lb n="S_LV_11_33"/><w id="C170048719" rend="in">in</w> <w id="C170048720" rend="quo">quo</w> <w id="C170048721" rend="est">est</w> <w id="C170048722" rend="quies">quies</w>. <w id="C170048723" rend="sed">Sed</w> <w id="C170048724" rend="qui">qui</w> <w id="C170048725" rend="elegit">elegit</w> <w id="C170048726" rend="contemplationem">contempla&#x00AC;tionem</w>,
+<lb n="S_LV_11_34"/>&#x00AB;<w id="C170048727" rend="optimam">optimam</w> <w id="C170048728" rend="partem">partem</w> <w id="C170048729" rend="elegit">elegit</w>, <w id="C170048730" rend="quae">quae</w> <w id="C170048731" rend="non">non</w>
+<lb n="S_LV_11_35"/><w id="C170048732" rend="auferetur">auferetur</w>&#x00BB;.
+</p>
+<fw type="n" n="12" rend="+"/>
+<p rend="indent"><lb n="S_LV_12_1"/><w id="C170048733" rend="ordo">Ordo</w> <w id="C170048734" rend="igitur">igitur</w> <w id="C170048735" rend="seu">seu</w> <w id="C170048736" rend="via">via</w> <w id="C170048737" rend="est">est</w> <w id="C170048738" rend="caritas">caritas</w>: &#x00AB;<w id="C170048739" rend="deus">Deus</w> <w id="C170048740" rend="caritas">ca&#x00AC;ritas</w>
+<lb n="S_LV_12_2"/><w id="C170048741" rend="est">est</w>&#x00BB; <w id="C170048742" rend="etc">etc</w>. <w id="C170048743" rend="haec">Haec</w> <w id="C170048744" rend="caritas">caritas</w> <w id="C170048745" rend="seu">seu</w> <w id="C170048746" rend="dilectio">dilectio</w> <w id="C170048747" rend="aut">aut</w>
+<lb n="S_LV_12_3"/><w id="C170048748" rend="stat">stat</w> <w id="C170048749" rend="in">in</w> <w id="C170048750" rend="uno">uno</w> <w id="C170048751" rend="necessario">necessario</w>, <w id="C170048752" rend="cui">cui</w> <w id="C170048753" rend="soli">soli</w> <w id="C170048754" rend="servit">servit</w>, <w id="C170048755" rend="aut">aut</w>
+<lb n="S_LV_12_4"/><w id="C170048756" rend="pergit">pergit</w> <w id="C170048757" rend="ad">ad</w> <w id="C170048758" rend="proximum">proximum</w> <w id="C170048759" rend="cum">cum</w> <w id="C170048760" rend="exhibitione">exhibitione</w> <w id="C170048761" rend="operum">ope&#x00AC;rum</w>.
+<lb n="S_LV_12_5"/>
+</p>
+<p rend="indent"><lb n="S_LV_12_6"/><w id="C170048762" rend="et">Et</w> <w id="C170048763" rend="secundum">secundum</w> <w id="C170048764" rend="hoc">hoc</w> <w id="C170048765" rend="exponitur">exponitur</w> <w id="C170048766" rend="primo">primo</w> <w id="C170048767" rend="modo">modo</w>
+<lb n="S_LV_12_7"/><w id="C170048768" rend="evangelium">evangelium</w>, <w id="C170048769" rend="scilicet">scilicet</w> <w id="C170048770" rend="quod">quod</w> <w id="C170048771" rend="via">via</w>, <w id="C170048772" rend="quae">quae</w> <w id="C170048773" rend="est">est</w> <w id="C170048774" rend="dilectio">dilec&#x00AC;tio</w>
+<lb n="S_LV_12_8"/><w id="C170048775" rend="seu">seu</w> <w id="C170048776" rend="proprie">proprie</w> <w id="C170048777" rend="caritas">caritas</w>, <w id="C170048778" rend="intravit">intravit</w> <w id="C170048779" rend="in">in</w> <w id="C170048780" rend="speciem">speciem</w>
+<lb n="S_LV_12_9"/><w id="C170048781" rend="humanam">humanam</w> <w id="C170048782" rend="et">et</w> <w id="C170048783" rend="per">per</w> <w id="C170048784" rend="aliquam">aliquam</w> <w id="C170048785" rend="animam">animam</w> <w id="C170048786" rend="uti">uti</w> <w id="C170048787" rend="martham">Mart&#x00AC;ham</w>
+<lb n="S_LV_12_10"/><w id="C170048788" rend="recepta">recepta</w> <w id="C170048789" rend="est">est</w> <w id="C170048790" rend="in">in</w> <w id="C170048791" rend="domum">domum</w> <w id="C170048792" rend="suam">suam</w>, <w id="C170048793" rend="quia">quia</w> <w id="C170048794" rend="templum">tem&#x00AC;plum</w>
+<lb n="S_LV_12_11"/><w id="C170048795" rend="domini">Domini</w> <w id="C170048796" rend="est">est</w> <w id="C170048797" rend="anima">anima</w> <w id="C170048798" rend="etc">etc</w>, <w id="C170048799" rend="scilicet">scilicet</w> <w id="C170048800" rend="recepta">recepta</w>
+<lb n="S_LV_12_12"/><w id="C170048801" rend="est">est</w> <w id="C170048802" rend="caritas">caritas</w> <w id="C170048803" rend="ipsa">ipsa</w> <w id="C170048804" rend="cum">cum</w> <w id="C170048805" rend="exhibitione">exhibitione</w> <w id="C170048806" rend="operum">operum</w> <w id="C170048807" rend="eius">eius</w>
+<lb n="S_LV_12_13"/><w id="C170048808" rend="et">et</w> <w id="C170048809" rend="per">per</w> <w id="C170048810" rend="aliam">aliam</w> <w id="C170048811" rend="animam">animam</w> <w id="C170048812" rend="recepta">recepta</w> <w id="C170048813" rend="est">est</w> <w id="C170048814" rend="cum">cum</w> <w id="C170048815" rend="admiratione">admi&#x00AC;ratione</w>
+<lb n="S_LV_12_14"/><w id="C170048816" rend="circa">circa</w> <w id="C170048817" rend="ipsam">ipsam</w>.
+</p>
+<fw type="n" n="13" rend="+"/>
+<p rend="indent"><lb n="S_LV_13_1"/><w id="C170048818" rend="et">Et</w> <w id="C170048819" rend="dicit">dicit</w> <w id="C170048820" rend="evangelium">evangelium</w>, <w id="C170048821" rend="quod">quod</w> <w id="C170048822" rend="sunt">sunt</w> <w id="C170048823" rend="duae">duae</w> <w id="C170048824" rend="sorores">so&#x00AC;rores</w>,
+<lb n="S_LV_13_2"/><w id="C170048825" rend="quia">quia</w> <w id="C170048826" rend="filiae">filiae</w> <w id="C170048827" rend="caritatis">caritatis</w>. <w id="C170048828" rend="et">Et</w> <w id="C170048829" rend="anima">anima</w>, <w id="C170048830" rend="quae">quae</w> <w id="C170048831" rend="est">est</w>
+<lb n="S_LV_13_3"/><w id="C170048832" rend="sollicita">sollicita</w> <w id="C170048833" rend="in">in</w> <w id="C170048834" rend="operibus">operibus</w> <w id="C170048835" rend="caritatis">caritatis</w>, <w id="C170048836" rend="iudicans">iudicans</w> <w id="C170048837" rend="tantam">tantam</w>
+<lb n="S_LV_13_4"/><w id="C170048838" rend="esse">esse</w> <w id="C170048839" rend="caritatem">caritatem</w>, <w id="C170048840" rend="quod">quod</w> <w id="C170048841" rend="ei">ei</w> <w id="C170048842" rend="tali">tali</w> <w id="C170048843" rend="modo">modo</w> <w id="C170048844" rend="obsequendum">obsequen&#x00AC;dum</w>
+<lb n="S_LV_13_5"/><w id="C170048845" rend="sit">sit</w>, <w id="C170048846" rend="vellet">vellet</w> <w id="C170048847" rend="sororem">sororem</w> <w id="C170048848" rend="suam">suam</w> <w id="C170048849" rend="etiam">etiam</w> <w id="C170048850" rend="sic">sic</w> <w id="C170048851" rend="esse">esse</w>,
+<lb n="S_LV_13_6"/><w id="C170048852" rend="quia">quia</w> <w id="C170048853" rend="non">non</w> <w id="C170048854" rend="iudicat">iudicat</w> <w id="C170048855" rend="ipsam">ipsam</w> <w id="C170048856" rend="in">in</w> <w id="C170048857" rend="caritate">caritate</w> <w id="C170048858" rend="esse">esse</w>,
+<pb n="271"/>
+<lb n="S_LV_13_7"/><w id="C170048859" rend="quando">quando</w> <w id="C170048860" rend="non">non</w> <w id="C170048861" rend="videt">videt</w> <w id="C170048862" rend="opera">opera</w> <w id="C170048863" rend="caritatis">caritatis</w>. <w id="C170048864" rend="et">Et</w> <w id="C170048865" rend="clamat">clamat</w>
+<lb n="S_LV_13_8"/><w id="C170048866" rend="ad">ad</w> <w id="C170048867" rend="caritatem">caritatem</w>, <w id="C170048868" rend="cui">cui</w> <w id="C170048869" rend="ministrat">ministrat</w>, <w id="C170048870" rend="dicens">dicens</w>:
+</p>
+<p rend="indent"><lb n="S_LV_13_9"/>&#x201C;<w id="C170048871" rend="o">O</w> <w id="C170048872" rend="caritas">caritas</w>, <w id="C170048873" rend="cum">cum</w> <w id="C170048874" rend="tantus">tantus</w> <w id="C170048875" rend="sit">sit</w> <w id="C170048876" rend="affectus">affectus</w> <w id="C170048877" rend="meus">meus</w>
+<lb n="S_LV_13_10"/><w id="C170048878" rend="et">et</w> <w id="C170048879" rend="sollicitudo">sollicitudo</w> <w id="C170048880" rend="explendi">explendi</w> <w id="C170048881" rend="opera">opera</w> <w id="C170048882" rend="caritatis">caritatis</w>, <w id="C170048883" rend="quae">quae</w>
+<lb n="S_LV_13_11"/><w id="C170048884" rend="sufficienter">sufficienter</w> <w id="C170048885" rend="administrare">administrare</w> <w id="C170048886" rend="nequeo">nequeo</w>, <w id="C170048887" rend="et">et</w> <w id="C170048888" rend="cum">cum</w> <w id="C170048889" rend="soror">so&#x00AC;ror</w>
+<lb n="S_LV_13_12"/><w id="C170048890" rend="mea">mea</w> <w id="C170048891" rend="filia">filia</w> <w id="C170048892" rend="etiam">etiam</w> <w id="C170048893" rend="sit">sit</w> <w id="C170048894" rend="caritatis">caritatis</w> <w id="C170048895" rend="et">et</w> <w id="C170048896" rend="sedulo">sedulo</w> <w id="C170048897" rend="atque">at&#x00AC;que</w>
+<lb n="S_LV_13_13"/><w id="C170048898" rend="frequenter">frequenter</w> <w id="C170048899" rend="sedeat">sedeat</w> <w id="C170048900" rend="in">in</w> <w id="C170048901" rend="humilitate">humilitate</w> <w id="C170048902" rend="sua">sua</w> <w id="C170048903" rend="ad">ad</w>
+<lb n="S_LV_13_14"/><w id="C170048904" rend="audiendum">audiendum</w> <w id="C170048905" rend="iussa">iussa</w> <w id="C170048906" rend="caritatis">caritatis</w>, <w id="C170048907" rend="cur">cur</w> <w id="C170048908" rend="non">non</w> <w id="C170048909" rend="iubes">iubes</w> <w id="C170048910" rend="eam">eam</w>
+<lb n="S_LV_13_15"/><w id="C170048911" rend="me">me</w> <w id="C170048912" rend="adiuvare">adiuvare</w>?&#x201D; <w id="C170048913" rend="et">Et</w> <w id="C170048914" rend="respondit">respondit</w> <w id="C170048915" rend="etc">etc</w>.
+</p>
+<p rend="indent"><lb n="S_LV_13_16"/><w id="C170048916" rend="ex">Ex</w> <w id="C170048917" rend="quo">quo</w> <w id="C170048918" rend="habemus">habemus</w>, <w id="C170048919" rend="quo">quo</w> <w id="C170048920" rend="modo">modo</w> <w id="C170048921" rend="caritas">caritas</w>, <w id="C170048922" rend="quae">quae</w>
+<lb n="S_LV_13_17"/><w id="C170048923" rend="ostenditur">ostenditur</w> <w id="C170048924" rend="in">in</w> <w id="C170048925" rend="administratione">administratione</w> <w id="C170048926" rend="operum">operum</w>, <w id="C170048927" rend="aufertur">aufer&#x00AC;tur</w>,
+<lb n="S_LV_13_18"/><w id="C170048928" rend="sed">sed</w> <w id="C170048929" rend="non">non</w>, <w id="C170048930" rend="quae">quae</w> <w id="C170048931" rend="est">est</w> <w id="C170048932" rend="conversa">conversa</w> <w id="C170048933" rend="ad">ad</w> <w id="C170048934" rend="unum">unum</w>.
+<lb n="S_LV_13_19"/><w id="C170048935" rend="unde">Unde</w> <w id="C170048936" rend="opera">opera</w> <w id="C170048937" rend="caritatis">caritatis</w> <w id="C170048938" rend="transeunt">transeunt</w> <w id="C170048939" rend="et">et</w> <w id="C170048940" rend="resolvuntur">resolvuntur</w>
+<lb n="S_LV_13_20"/><w id="C170048941" rend="ad">ad</w> <w id="C170048942" rend="unum">unum</w>. <w id="C170048943" rend="et">Et</w> <w id="C170048944" rend="electio">electio</w> <w id="C170048945" rend="unius">unius</w> <w id="C170048946" rend="non">non</w> <w id="C170048947" rend="aufertur">aufertur</w>.
+</p>
+</div3>
+</div2>
+</div1>
+</div0>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,10 @@
+beautifulsoup4==4.12.3
+lxml==5.3.0
+soupsieve==2.6
+gensim==4.3.3
+matplotlib==3.6.2
+seaborn==0.12.2
+pyLDAVis==3.4.1
+spacy==3.5.1
+spacy-langdetect==0.1.2
+
