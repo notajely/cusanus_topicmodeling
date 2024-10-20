@@ -7,7 +7,6 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-.Python
 build/
 dist/
 downloads/
@@ -22,10 +21,6 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
-# PyInstaller
-*.manifest
-*.spec
 
 # Logs and installer logs
 *.log
@@ -44,8 +39,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
-# Django
-local_settings.py
+# Databases (for frameworks like Django)
 db.sqlite3
 db.sqlite3-journal
 
@@ -53,26 +47,16 @@ db.sqlite3-journal
 instance/
 .webassets-cache
 
-# Scrapy
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Environments
-.env
-.venv
-env/
+# Virtual environments
+.venv/
 venv/
-ENV/
-env.bak/
-venv.bak/
 
-# VS Code
+
+# VS Code settings
 .vscode/
 
-# macOS
+# macOS system files
 .DS_Store
