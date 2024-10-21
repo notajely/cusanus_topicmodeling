@@ -1,45 +1,80 @@
+"""
+This module provides functions to preprocess TEI XML files.
+"""
+
+# Import necessary modules
+import re
 import os
-from bs4 import BeautifulSoup
+import xml.etree.ElementTree as ET
+from nltk.corpus import stopwords
+from cltk.stem.latin.j_v import JVReplacer
+from cltk.tokenize.sentence import TokenizeSentence
+from cltk.lemmatize.latin.backoff import BackoffLatinLemmatizer
 
-# Set the current directory (relative to this script)
-current_dir = os.path.dirname(os.path.abspath(__file__))
+# Initialize tools
+jv_replacer = JVReplacer()
+sentence_tokenizer = TokenizeSentence('latin')
+lemmatizer = BackoffLatinLemmatizer()
+# Load stopwords
+stop_words = set(stopwords.words('latin'))
 
-# Define input and output folders
-xml_folder = os.path.join(current_dir, '../data/raw')
-output_folder = os.path.join(current_dir, '../data/processed')
+# Define preprocessing function
+def preprocess_text(xml_content):
+    """
+    Function to preprocess TEI XML content for topic modeling.
+    Args:
+        xml_content (str): Content of the input XML file.
+    Returns:
+        str: Preprocessed text content.
+    """
+    # Parse TEI XML
+    root = ET.fromstring(xml_content)
+    text_elements = root.findall('.//{http://www.tei-c.org/ns/1.0}text')
+    text = ""
+    for elem in text_elements:
+        text += ''.join(elem.itertext())
 
-# Ensure the output directory exists
-if not os.path.exists(output_folder):
-    os.makedirs(output_folder)
+    # Normalize text
+    text = jv_replacer.replace(text)
+    text = re.sub(r'[^a-zA-Z\s]', '', text)
+    text = text.lower()
 
-# Function to process each XML file
-def preprocess_tei_data(file_path):
-    # Open and read the TEI XML file
-    with open(file_path, 'r', encoding='utf-8') as file:
-        content = file.read()
+    # Tokenize sentences and process each sentence
+    sentences = sentence_tokenizer.tokenize(text)
+    processed_sentences = []
+    for sentence in sentences:
+        words = sentence.split()
+        words = [word for word in words if word not in stop_words]
+        lemmatized_words = [lemma for word, lemma in lemmatizer.lemmatize(words)]
+        processed_sentence = ' '.join(lemmatized_words)
+        processed_sentences.append(processed_sentence)
 
-    # Parse the TEI XML structure
-    soup = BeautifulSoup(content, 'lxml-xml')
+    # Join processed sentences
+    processed_text = ' '.join(processed_sentences)
+    return processed_text
 
-    # Extract the body content (if present)
-    body_tag = soup.find('body')
-    sermon_text = body_tag.get_text() if body_tag else 'No Content Found'
 
-    # Clean up the text (remove extra whitespace)
-    cleaned_text = ' '.join(sermon_text.split())
+# Directory paths
+input_dir = '../data/raw'
+output_dir = '../data/processed'
 
-    # Return the processed text
-    return cleaned_text
+# Ensure output directory exists
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
 
-# Process all XML files in the input folder
-for filename in os.listdir(xml_folder):
+# Process all XML files
+for filename in os.listdir(input_dir):
     if filename.endswith('.xml'):
-        file_path = os.path.join(xml_folder, filename)
-        processed_sermon = preprocess_tei_data(file_path)
+        input_path = os.path.join(input_dir, filename)
+        with open(input_path, 'r', encoding='utf-8') as file:
+            xml_content = file.read()
 
-        # Save the processed text to the output folder
-        output_file_path = os.path.join(output_folder, f"{os.path.splitext(filename)[0]}_processed.txt")
-        with open(output_file_path, 'w', encoding='utf-8') as output_file:
-            output_file.write(processed_sermon)
+        # Preprocess the content
+        processed_text = preprocess_text(xml_content)
 
-print("All files have been successfully preprocessed and saved.")
+        # Save to output directory
+        output_filename = f"{os.path.splitext(filename)[0]}_preprocessed.txt"
+        output_path = os.path.join(output_dir, output_filename)
+        with open(output_path, 'w', encoding='utf-8') as file:
+            file.write(processed_text)
+        print(f'Preprocessed text saved to {output_path}')

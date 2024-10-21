@@ -1,28 +1,35 @@
-# Ignore virtual environments
-.venv/
-venv/
-
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Ignore Python cache files
+# Python related files
 __pycache__/
 *.py[cod]
 
-# Ignore compiled Cython/Python files
-*.so
+# Virtual environment
+.venv/
+.env/
+ENV/
+env/
 
-# Ignore macOS system files
-.DS_Store
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
-# Ignore results and processed data
-results/
-data/processed/
-data/raw/
+# VSCode settings
+.vscode/
 
-# Keep folder structure
-!data/processed/.gitkeep
-!data/raw/.gitkeep
+# Ignore data files (raw and processed)
+data/*
+!data/README.md  # 保留用于描述数据集的文档
 
-# Ignore log and output files
+# Ignore logs and temporary files
+logs/
 *.log
+*.tmp
+*.temp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore models and intermediate output files
+results/
+models/
+*.model
