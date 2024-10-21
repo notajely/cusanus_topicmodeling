@@ -33,3 +33,5 @@ Thumbs.db
 results/
 models/
 *.model
+
+*~

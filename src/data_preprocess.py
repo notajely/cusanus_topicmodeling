@@ -1,80 +1,89 @@
-"""
-This module provides functions to preprocess TEI XML files.
-"""
-
-# Import necessary modules
-import re
 import os
-import xml.etree.ElementTree as ET
-from nltk.corpus import stopwords
-from cltk.stem.latin.j_v import JVReplacer
-from cltk.tokenize.sentence import TokenizeSentence
-from cltk.lemmatize.latin.backoff import BackoffLatinLemmatizer
+from bs4 import BeautifulSoup
+from tqdm import tqdm
 
-# Initialize tools
-jv_replacer = JVReplacer()
-sentence_tokenizer = TokenizeSentence('latin')
-lemmatizer = BackoffLatinLemmatizer()
-# Load stopwords
-stop_words = set(stopwords.words('latin'))
-
-# Define preprocessing function
-def preprocess_text(xml_content):
+def preprocess_text(xml_data):
     """
-    Function to preprocess TEI XML content for topic modeling.
+    Process the XML content and extract the word-level text, ensuring to handle line breaks and special characters.
+    
     Args:
-        xml_content (str): Content of the input XML file.
+    xml_data (str): XML content in string format.
+
     Returns:
-        str: Preprocessed text content.
+    str: Processed text from the XML content.
     """
-    # Parse TEI XML
-    root = ET.fromstring(xml_content)
-    text_elements = root.findall('.//{http://www.tei-c.org/ns/1.0}text')
-    text = ""
-    for elem in text_elements:
-        text += ''.join(elem.itertext())
+    try:
+        # Parse the XML content using BeautifulSoup
+        soup = BeautifulSoup(xml_data, "lxml-xml")
+        
+        # Extract text within <w> tags
+        words = [w.get_text() for w in soup.find_all('w')]
+        
+        # Join the words and clean up line breaks
+        text_output = " ".join(words).replace("\n", " ").strip()
 
-    # Normalize text
-    text = jv_replacer.replace(text)
-    text = re.sub(r'[^a-zA-Z\s]', '', text)
-    text = text.lower()
-
-    # Tokenize sentences and process each sentence
-    sentences = sentence_tokenizer.tokenize(text)
-    processed_sentences = []
-    for sentence in sentences:
-        words = sentence.split()
-        words = [word for word in words if word not in stop_words]
-        lemmatized_words = [lemma for word, lemma in lemmatizer.lemmatize(words)]
-        processed_sentence = ' '.join(lemmatized_words)
-        processed_sentences.append(processed_sentence)
-
-    # Join processed sentences
-    processed_text = ' '.join(processed_sentences)
-    return processed_text
-
-
-# Directory paths
-input_dir = '../data/raw'
-output_dir = '../data/processed'
-
-# Ensure output directory exists
-if not os.path.exists(output_dir):
-    os.makedirs(output_dir)
-
-# Process all XML files
-for filename in os.listdir(input_dir):
-    if filename.endswith('.xml'):
+        return text_output
+    except Exception as e:
+        print(f"Error processing XML: {e}")
+        return ""
+    
+def process_files(input_dir, output_dir):
+    """
+    Processes all XML files in the input directory and saves the processed text to the output directory.
+    
+    Args:
+    input_dir (str): The directory containing the raw XML files.
+    output_dir (str): The directory to save processed text files.
+    """
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    
+    files = [f for f in os.listdir(input_dir) if f.endswith('.xml')]
+    
+    for filename in tqdm(files, desc="Processing files"):
         input_path = os.path.join(input_dir, filename)
-        with open(input_path, 'r', encoding='utf-8') as file:
-            xml_content = file.read()
+        output_path = os.path.join(output_dir, f"{os.path.splitext(filename)[0]}_processed.txt")
 
-        # Preprocess the content
-        processed_text = preprocess_text(xml_content)
+        try:
+            with open(input_path, 'r', encoding='utf-8') as file:
+                xml_content = file.read()
 
-        # Save to output directory
-        output_filename = f"{os.path.splitext(filename)[0]}_preprocessed.txt"
-        output_path = os.path.join(output_dir, output_filename)
-        with open(output_path, 'w', encoding='utf-8') as file:
-            file.write(processed_text)
-        print(f'Preprocessed text saved to {output_path}')
+            processed_text = preprocess_text(xml_content)
+
+            with open(output_path, 'w', encoding='utf-8') as output_file:
+                output_file.write(processed_text)
+
+        except Exception as e:
+            print(f"Failed to process {filename}: {e}")
+    
+    print("\nAll files have been successfully processed!")
+
+# Test the preprocess function
+def test_preprocess():
+    test_xml = '''
+    <TEI.2>
+      <text>
+        <body>
+          <p>
+            <w id="C160375504" lemma_l="10242">Verbum</w> 
+            <w id="C160375505" lemma_l="1433">caro</w> 
+            <w id="C160375506" lemma_l="3761">factum</w> 
+            <w id="C160375507" lemma_l="9483">est</w>.
+          </p>
+        </body>
+      </text>
+    </TEI.2>
+    '''
+
+    # Test the preprocess function
+    processed_test_text = preprocess_text(test_xml)
+    print(f"Processed test text: {processed_test_text}")
+
+if __name__ == "__main__":
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    input_dir = os.path.join(current_dir, '../data/raw/')
+    output_dir = os.path.join(current_dir, '../data/processed/')
+    
+    process_files(input_dir, output_dir)
+    
+    # test_preprocess()
