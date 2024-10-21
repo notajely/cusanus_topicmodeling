@@ -1,21 +1,39 @@
-# Cusanus Topic Modeling Project
+
+# Cusanus Sermon Topic Modeling
 
 ## Project Overview
 
-This project performs topic modeling on 293 sermons by Cusanus, utilizing Python for preprocessing and analysis. The goal is to identify key themes across the sermons.
+This project applies **Latent Dirichlet Allocation (LDA)** to analyze and discover themes in **293 sermons** by Nicholas of Cusa (Cusanus).
 
-## Project Structure
+## Structure
 
-- `data/`: Contains raw (`Sermones_XML/`) and preprocessed (`Preprocessed/`) data.
-- `results/`: Stores outputs, including `Topic_Models/` and `Visualizations/`.
-- `scripts/`: Includes Python scripts for data processing and topic modeling.
+- **`data/`** - Contains raw and processed data.
+- **`results/`** - Stores model outputs and visualizations.
+- **`notebooks/`** - Contains the Jupyter notebooks for each stage of analysis:
+  - `01_preprocessing.ipynb`: Preprocessing the sermon texts.
+  - `02_exploratory_data_analysis.ipynb`: Data exploration and initial visualizations.
+  - `03_topic_modeling_and_experiments.ipynb`: Topic modeling and parameter tuning.
+  - `04_model_evaluation.ipynb`: Evaluating the LDA model.
+  - `05_final_model_visualization.ipynb`: Final topic visualizations.
+  - `06_results_visualization.ipynb`: Visualizing model results and topics.
+  - `07_project_summary.ipynb`: Summarizing findings.
 
-## How to Run
+## Getting Started
 
-1. Install dependencies with `pip install -r requirements.txt`.
-2. Run `preprocess.py` to process XML data.
-3. Execute `analyze.py` for topic modeling and analysis.
+1. **Clone the repository**:
 
-## Dependencies
+   ```bash
+   git clone <repository_url>
+   cd Cusanus_Topic_Modeling
+   ```
+2. **Install dependencies**:
 
-See `requirements.txt`.
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Preprocess the data**: Run the `01_preprocessing.ipynb` notebook to clean the sermon texts.
+4. **Run the topic modeling pipeline**: Follow the notebooks in sequence to perform data analysis and modeling.
+
+## Contact
+
+For questions or collaboration, feel free to contact the project maintainer.
