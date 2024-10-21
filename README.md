@@ -29,11 +29,6 @@ This project applies **Latent Dirichlet Allocation (LDA)** and other potential t
 
   - Test scripts for ensuring data processing and modeling components work as expected.
 
-
-# Cusanus Sermon Topic Modeling
-
-**Cusanus Sermon Topic Modeling** is a project focused on extracting thematic insights from the 293 sermons of Nicholas of Cusa using topic modeling techniques, specifically **Latent Dirichlet Allocation (LDA)**. The project workflow includes data preprocessing, topic modeling, hyperparameter tuning, model evaluation, and visualization.
-
 ## Requirements
 
 To install all dependencies, run:
