@@ -15,10 +15,14 @@ __pycache__/
 # Ignore macOS system files
 .DS_Store
 
-# Ignore results and processed data (can be tracked separately if needed)
+# Ignore results and processed data
 results/
 data/processed/
 data/raw/
+
+# Keep folder structure
+!data/processed/.gitkeep
+!data/raw/.gitkeep
 
 # Ignore log and output files
 *.log
