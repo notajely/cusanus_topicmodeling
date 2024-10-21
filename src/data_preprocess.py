@@ -2,6 +2,7 @@ import os
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+# Preprocess the XML content and extract the word-level text
 def preprocess_text(xml_data):
     """
     Process the XML content and extract the word-level text, ensuring to handle line breaks and special characters.
@@ -26,7 +27,8 @@ def preprocess_text(xml_data):
     except Exception as e:
         print(f"Error processing XML: {e}")
         return ""
-    
+
+# Process all XML files in the input directory
 def process_files(input_dir, output_dir):
     """
     Processes all XML files in the input directory and saves the processed text to the output directory.
@@ -79,6 +81,7 @@ def test_preprocess():
     processed_test_text = preprocess_text(test_xml)
     print(f"Processed test text: {processed_test_text}")
 
+# Run the preprocessing function
 if __name__ == "__main__":
     current_dir = os.path.dirname(os.path.abspath(__file__))
     input_dir = os.path.join(current_dir, '../data/raw/')
