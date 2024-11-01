@@ -1,0 +1,21 @@
+BASE_DIR: "/Users/jessie/Documents/Projects/Cusanus_Topic_Modeling"
+
+# 数据路径配置
+STOPWORDS_PATH: "data/external/stopwords_latin.txt"
+LEMMAS_PATH: "data/raw/lemma.xml"
+RAW_DATA_DIR: "data/raw"
+PROCESSED_DATA_DIR: "data/processed"
+TESTSET_DIR: "data/testset"
+DTM_OUTPUT_DIR: "data/dtm"
+
+# 新增配置项，用于测试样本路径
+TEST_SAMPLES_DIR: "data/test_samples"
+
+# 实验参数配置
+LDA_TOPICS: 10
+LDA_ITERATIONS: 1000
+
+# 其他参数
+REMOVE_STOPWORDS: true
+LEMMATIZE: true
+SAMPLE_RATE: 0.1  # 用于生成测试集的采样比例

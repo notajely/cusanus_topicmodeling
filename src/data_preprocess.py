@@ -1,92 +1,99 @@
 import os
 from bs4 import BeautifulSoup
-from tqdm import tqdm
+import tqdm
+from collections import defaultdict
+import yaml
 
-# Preprocess the XML content and extract the word-level text
-def preprocess_text(xml_data):
-    """
-    Process the XML content and extract the word-level text, ensuring to handle line breaks and special characters.
-    
-    Args:
-    xml_data (str): XML content in string format.
+# 加载配置文件，获取项目根目录和相关路径
+CONFIG_PATH = 'config.yaml'
 
-    Returns:
-    str: Processed text from the XML content.
-    """
+try:
+    with open(CONFIG_PATH, 'r') as config_file:
+        config = yaml.safe_load(config_file)
+    BASE_DIR = config.get('BASE_DIR', os.getcwd())
+    print("配置文件加载成功，项目根目录为: ", BASE_DIR)
+except FileNotFoundError:
+    print(f"配置文件未找到: {CONFIG_PATH}，使用当前工作目录。")
+    BASE_DIR = os.getcwd()
+
+# 数据预处理部分
+# 定义停用词列表路径并加载
+stopwords_path = os.path.join(BASE_DIR, config.get('STOPWORDS_PATH', 'data/external/stopwords_latin.txt'))
+try:
+    with open(stopwords_path, 'r') as f:
+        latin_stopwords = set(f.read().splitlines())
+    print("停用词列表加载成功。")
+except FileNotFoundError:
+    print(f"停用词文件未找到: {stopwords_path}")
+    latin_stopwords = set()
+
+# 词形表加载函数
+# 从 lemma.xml 文件中加载词形，还原词汇的标准形式
+def load_lemmas(filepath):
+    lemmas = defaultdict(str)
     try:
-        # Parse the XML content using BeautifulSoup
-        soup = BeautifulSoup(xml_data, "lxml-xml")
-        
-        # Extract text within <w> tags
-        words = [w.get_text() for w in soup.find_all('w')]
-        
-        # Join the words and clean up line breaks
-        text_output = " ".join(words).replace("\n", " ").strip()
+        with open(filepath, 'r') as file:
+            soup = BeautifulSoup(file, 'xml')
+            for lemma in soup.find_all('lemma'):
+                lemmas[lemma['name']] = lemma['name']
+                for variant in lemma.find_all('variant'):
+                    lemmas[variant['name']] = lemma['name']
+        print("词形表加载成功。")
+    except FileNotFoundError:
+        print(f"词形文件未找到: {filepath}")
+    return lemmas
 
-        return text_output
-    except Exception as e:
-        print(f"Error processing XML: {e}")
+lemmas_path = os.path.join(BASE_DIR, config.get('LEMMAS_PATH', 'data/processed/lemma.xml'))
+lemmas = load_lemmas(lemmas_path)
+
+# XML 文件预处理函数
+# 处理 XML 文件，检查是否包含 lemma_l 属性，并根据情况进行词形还原和停用词去除
+def preprocess_text(xml_file):
+    try:
+        with open(xml_file, 'r') as file:
+            soup = BeautifulSoup(file, 'xml')
+            words = []
+            for w in soup.find_all('w'):
+                # 检查词汇是否有 lemma_l 属性
+                lemma_attr = w.get('lemma_l')
+                if lemma_attr:
+                    # 如果有 lemma_l 属性，直接使用
+                    word = lemma_attr.lower()
+                else:
+                    # 如果没有 lemma_l 属性，则使用词汇文本并进行词形还原
+                    raw_word = w.get_text().lower()
+                    word = lemmas.get(raw_word, raw_word)
+                # 去除停用词
+                if word not in latin_stopwords:
+                    words.append(word)
+            return ' '.join(words)
+    except FileNotFoundError:
+        print(f"XML 文件未找到: {xml_file}")
         return ""
 
-# Process all XML files in the input directory
-def process_files(input_dir, output_dir):
-    """
-    Processes all XML files in the input directory and saves the processed text to the output directory.
-    
-    Args:
-    input_dir (str): The directory containing the raw XML files.
-    output_dir (str): The directory to save processed text files.
-    """
+# 处理目录中的文件，保存结果
+# 读取原始文件并处理，生成经过词形还原和停用词去除的文本文件
+def process_directory(input_dir, output_dir):
+    input_dir = os.path.join(BASE_DIR, input_dir)
+    output_dir = os.path.join(BASE_DIR, output_dir)
+
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    
-    files = [f for f in os.listdir(input_dir) if f.endswith('.xml')]
-    
-    for filename in tqdm(files, desc="Processing files"):
-        input_path = os.path.join(input_dir, filename)
-        output_path = os.path.join(output_dir, f"{os.path.splitext(filename)[0]}_processed.txt")
 
+    xml_files = [f for f in os.listdir(input_dir) if f.endswith('.xml')]
+
+    for xml_file in tqdm.tqdm(xml_files):
+        input_path = os.path.join(input_dir, xml_file)
+        output_path = os.path.join(output_dir, xml_file.replace('.xml', '.txt'))
+        if os.path.exists(output_path):
+            print(f"文件已存在，跳过处理: {output_path}")
+            continue
         try:
-            with open(input_path, 'r', encoding='utf-8') as file:
-                xml_content = file.read()
-
-            processed_text = preprocess_text(xml_content)
-
-            with open(output_path, 'w', encoding='utf-8') as output_file:
-                output_file.write(processed_text)
-
+            processed_text = preprocess_text(input_path)
+            with open(output_path, 'w') as out_file:
+                out_file.write(processed_text)
         except Exception as e:
-            print(f"Failed to process {filename}: {e}")
-    
-    print("\nAll files have been successfully processed!")
+            print(f"处理文件 {xml_file} 时出错: {e}")
 
-# Test the preprocess function
-def test_preprocess():
-    test_xml = '''
-    <TEI.2>
-      <text>
-        <body>
-          <p>
-            <w id="C160375504" lemma_l="10242">Verbum</w> 
-            <w id="C160375505" lemma_l="1433">caro</w> 
-            <w id="C160375506" lemma_l="3761">factum</w> 
-            <w id="C160375507" lemma_l="9483">est</w>.
-          </p>
-        </body>
-      </text>
-    </TEI.2>
-    '''
-
-    # Test the preprocess function
-    processed_test_text = preprocess_text(test_xml)
-    print(f"Processed test text: {processed_test_text}")
-
-# Run the preprocessing function
-if __name__ == "__main__":
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    input_dir = os.path.join(current_dir, '../data/raw/')
-    output_dir = os.path.join(current_dir, '../data/processed/')
-    
-    process_files(input_dir, output_dir)
-    
-    # test_preprocess()
+# 运行数据预处理
+process_directory('data/raw', 'data/processed')
