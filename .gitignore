@@ -35,3 +35,9 @@ models/
 *.model
 
 *~
+
+la_core_web_lg.zip
+
+experiments/
+models/
+saved_models/
