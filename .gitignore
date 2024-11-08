@@ -36,6 +36,7 @@ results/
 models/
 saved_models/
 *.model
+latin-bert/
 
 # Ignore experiment outputs
 experiments/
