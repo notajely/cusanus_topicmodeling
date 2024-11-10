@@ -1,0 +1,12 @@
+BERTopic 生成的主题：
+Topic 0: deus, christus, verbum, pater, bonus, filius, semen, spiritus, mors, mundus
+Topic 1: deus, dies, anima, homo, virgo, secundus, verbum, ratio, ars, filius
+Topic 2: deus, spiritus, christus, homo, virtus, gloria, rex, verbum, mundus, unus
+Topic 3: christus, deus, iustitia, intelligibilis, debeo, intellego, doceo, bonus, apostolus, evangelium
+Topic 4: imago, deus, vita, spiritus, lumen, christus, intellego, ratio, visito, pater
+Topic 5: spiritus, deus, christus, virtus, careo, ecclesia, filius, vita, amor, fides
+Topic 6: mare, corpus, christus, quaero, dominus, deus, verbum, curro, secundus, mors
+Topic 7: nosco, mundus, principium, cena, verbum, lucerna, excuso, voco, thesaurus, evangelium
+
+平均主题一致性 (NPMI): -0.05126873692312986
+主题多样性: 0.6

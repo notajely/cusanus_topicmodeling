@@ -1,0 +1,15 @@
+LDA 生成的主题：
+Topic 0: 0.041*"panis" + 0.016*"sedeo" + 0.016*"multitudo" + 0.015*"sentio" + 0.008*"probo" + 0.008*"evenio" + 0.008*"labor" + 0.008*"quaestio" + 0.007*"evangelizo" + 0.007*"electio"
+Topic 1: 0.066*"forma" + 0.015*"lignum" + 0.012*"nomen" + 0.011*"peto" + 0.011*"turbatio" + 0.010*"delecto" + 0.010*"active" + 0.010*"contemplative" + 0.010*"necessitas" + 0.008*"persevero"
+Topic 2: 0.021*"moueo" + 0.019*"jesus" + 0.018*"regnum" + 0.012*"patria" + 0.011*"aufero" + 0.011*"fluctuo" + 0.011*"pereo" + 0.010*"trado" + 0.009*"spes" + 0.009*"tenebraris"
+Topic 3: 0.037*"cibus" + 0.025*"panis" + 0.023*"lumen" + 0.018*"modicus" + 0.016*"vinum" + 0.016*"impero" + 0.014*"sollicitudo" + 0.011*"surgo" + 0.009*"thema" + 0.009*"manna"
+Topic 4: 0.049*"jesus" + 0.036*"intro2" + 0.032*"castellum" + 0.017*"discipulis" + 0.015*"martha" + 0.014*"vox" + 0.013*"exalto" + 0.012*"tranquillitas" + 0.010*"clamo" + 0.010*"jesum"
+Topic 5: 0.060*"eligo" + 0.045*"pars" + 0.035*"aufero" + 0.018*"dormio" + 0.011*"testimonium" + 0.009*"intro2" + 0.009*"hostia" + 0.009*"offero" + 0.008*"aeternitas" + 0.008*"operio"
+Topic 6: 0.022*"ars" + 0.020*"lex" + 0.012*"amicus" + 0.011*"mysticus" + 0.011*"oblatio" + 0.010*"haurio" + 0.009*"festivitas" + 0.009*"iudico" + 0.008*"ambulo" + 0.008*"sursum"
+Topic 7: 0.060*"peto" + 0.025*"navicula" + 0.024*"cibus" + 0.019*"oro" + 0.018*"panis" + 0.015*"pulso" + 0.014*"portus" + 0.012*"flamma" + 0.012*"sero1" + 0.011*"offertor"
+Topic 8: 0.053*"nomen" + 0.039*"imago" + 0.032*"amo" + 0.023*"gaudium" + 0.015*"moueo" + 0.011*"recedo" + 0.011*"gusto" + 0.010*"exemplaris" + 0.010*"sermo" + 0.010*"panis"
+Topic 9: 0.056*"pax" + 0.023*"religiosus" + 0.018*"sufficio" + 0.017*"peto" + 0.012*"moueo" + 0.010*"regnum" + 0.009*"impello" + 0.009*"vinum" + 0.008*"saeculum" + 0.008*"trinitas"
+
+困惑度: -8.871522140752463
+主题一致性 (NPMI): -0.42375964487330375
+主题多样性: 0.875
