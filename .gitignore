@@ -40,7 +40,6 @@ saved_models/
 latin-bert/
 
 # Ignore experiment outputs
-experiments/
 
 # Ignore downloaded or intermediate compressed files
 *.zip
@@ -73,3 +72,7 @@ document_topic_distributions.csv
 lda_topics.txt
 lda_visualization.html
 latin-bert/
+
+document_tfidf_values.csv
+paragraphs_data.json
+removed_common_words_tfidf.txt
