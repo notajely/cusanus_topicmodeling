@@ -7,8 +7,9 @@ __pycache__/
 .env/
 ENV/
 env/
-new_venv/  # 新的 conda 虚拟环境也应忽略
+cusanus_env/  # 新的 conda 虚拟环境也应忽略
 latin_bert_env
+cusanus_py310
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -51,5 +52,23 @@ experiments/
 # Ignore specific NLP models or datasets
 la_core_web_lg.zip
 
-
+# Additional setup or configuration files
 setup_latin_bert.sh
+
+# Lightning logs and checkpoints
+lightning_logs/
+lightning_logs/version_*/checkpoints/
+*.ckpt
+
+# Ignore Jupyter Notebook generated files
+document_topic_distributions.csv
+lda_topics.txt
+lda_visualization.html
+bertopic_history.ipynb
+notebooks/bertopic_parameter.csv
+removed_common_words.txt
+
+# Ignore specific files
+document_topic_distributions.csv
+lda_topics.txt
+lda_visualization.html
