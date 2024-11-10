@@ -72,3 +72,4 @@ removed_common_words.txt
 document_topic_distributions.csv
 lda_topics.txt
 lda_visualization.html
+latin-bert/
