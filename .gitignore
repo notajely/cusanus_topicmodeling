@@ -20,6 +20,7 @@ cusanus_py310
 # Ignore data files (raw and processed)
 data/*
 !data/README.md  # 保留用于描述数据集的文档
+pre_test/
 
 # Ignore logs and temporary files
 logs/
@@ -76,3 +77,4 @@ latin-bert/
 document_tfidf_values.csv
 paragraphs_data.json
 removed_common_words_tfidf.txt
+
