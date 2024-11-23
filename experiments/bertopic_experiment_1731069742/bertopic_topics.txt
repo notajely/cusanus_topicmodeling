@@ -1,8 +1,0 @@
-主题 0: deus, gratia, christus, homo, secundus, verbum, mundus, primus, spiritus, vinum
-主题 1: deus, homo, scribo, christus, fides, unus, verbum, spiritus, pater, vita
-主题 2: spiritus, deus, iesus, filius, homo, anima, gaudium, natura, sapientia, dominus
-主题 3: spiritus, deus, christus, mors, anima, sanguis, sancio, homo, vereor, caro
-主题 4: deus, verbum, audio, mundus, cum2, homo, peccator, accipio, capio, fides
-主题 5: christus, deus, pater, caritas, latitudo, thesaurus, longitudo, fecunditas, homo, jejuno
-主题 6: pater, mundus, filius, deus, peto, aeternus, intellego, cognitio, venio, sapientia
-主题 7: mare, cum2, quaero, corpus, christus, dominus, angelus, invenio, secundus, mulier
