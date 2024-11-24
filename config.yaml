@@ -4,7 +4,7 @@ BASE_DIR: "/Users/jessie/Documents/Projects/Cusanus_Topic_Modeling"
 STOPWORDS_PATH: "data/external/stopwords_latin.txt"
 LEMMAS_PATH: "data/raw/lemma.xml"
 RAW_DATA_DIR: "data/raw"
-PROCESSED_DATA_DIR: "data/processed"
+PROCESSED_DATA_DIR: "data/preprocessed"
 TESTSET_DIR: "data/testset"
 DTM_OUTPUT_DIR: "data/dtm"
 
