@@ -1,0 +1,23 @@
+datasets:
+  names: ['cltk_stanza', 'stanza', 'cusanus']
+
+preprocessing:
+  tfidf_thresholds: [0.2, 0.3, 0.4]
+  min_doc_freq: 2
+  max_doc_ratio: 0.9
+
+topic_modeling:
+  num_topics: [5, 10, 15, 20]
+  formula_alphas: [0.1, 0.3, 0.5, 0.7, 0.9]
+  formula_lambdas: [0.0, 0.5, 1.0]
+  lda_params:
+    alpha_list: [0.01, 0.1, 1.0, 'auto']
+    beta_list: [0.01, 0.1, 1.0]
+    passes: 10
+    iterations: 100
+    random_state: 42
+
+paths:
+  checkpoint_dir: 'checkpoints'
+  output_dir: 'output'
+  data_dir: 'data'
