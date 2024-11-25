@@ -81,6 +81,7 @@ removed_common_words_tfidf.txt
 data/
 output/
 checkpoints/
+experiments/
 logs/
 *.log
 
