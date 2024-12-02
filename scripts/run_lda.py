@@ -143,10 +143,10 @@ def run_experiment(base_dir: Path):
     """运行LDA实验"""
     try:
         # 设置目录
-        data_dir = base_dir / "data"
-        experiment_dir = base_dir / "experiments/lda"
-        log_dir = base_dir / "logs"
-        results_dir = experiment_dir / "results"
+        data_dir = base_dir  / 'experiments' / 'lda' / 'spacy'
+        experiment_dir = base_dir / "experiments/lda/spacy"
+        log_dir = base_dir / "experiments/lda/spcay/logs"
+        results_dir = experiment_dir / "experiments/lda/spacy/results"
         
         for dir_path in [experiment_dir, log_dir, results_dir]:
             dir_path.mkdir(parents=True, exist_ok=True)

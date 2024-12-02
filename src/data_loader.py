@@ -157,24 +157,24 @@ def analyze_datasets():
         
         # Load data
         base_dir = Path(__file__).resolve().parents[1]
-        data_dir = base_dir / 'data'  # Modify data directory path
+        data_dir = base_dir / 'experiments' / 'lda' / 'spacy' # Modify data directory path
         
         # Load train and test sets
         train_texts = load_documents(data_dir, 'train_set')
         test_texts = load_documents(data_dir, 'test_set')
         
         # Create directory to save plots
-        save_dir = base_dir / 'experiments' / 'word_freq_analysis'
+        save_dir = base_dir / 'experiments' / 'cusanus_word_freq_analysis'
         save_dir.mkdir(parents=True, exist_ok=True)
         
         # Plot train set word frequency distribution
         plot_word_freq_distribution(train_texts, 'Train Set')
-        plt.savefig(save_dir / 'word_freq_train.png', dpi=300, bbox_inches='tight')
+        plt.savefig(save_dir / 'cusanus_word_freq_train.png', dpi=300, bbox_inches='tight')
         plt.close()
         
         # Plot test set word frequency distribution
         plot_word_freq_distribution(test_texts, 'Test Set')
-        plt.savefig(save_dir / 'word_freq_test.png', dpi=300, bbox_inches='tight')
+        plt.savefig(save_dir / 'cusanus_word_freq_test.png', dpi=300, bbox_inches='tight')
         plt.close()
         
         # Print and save statistics
@@ -207,7 +207,7 @@ def analyze_datasets():
         print('\n'.join(stats))
         
         # Save statistics to file
-        with open(save_dir / 'dataset_statistics.txt', 'w', encoding='utf-8') as f:
+        with open(save_dir / 'cusanus_dataset_statistics.txt', 'w', encoding='utf-8') as f:
             f.write('\n'.join(stats))
         
     except Exception as e:

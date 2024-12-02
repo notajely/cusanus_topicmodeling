@@ -174,7 +174,7 @@ if __name__ == "__main__":
     os.chdir(project_dir)
     
     # 获取数据目录
-    data_dir = Path('data')
+    data_dir = Path('experiments/lda/cusanus')
     
     print(f"当前工作目录: {os.getcwd()}")
     print(f"数据目录: {data_dir.absolute()}")
